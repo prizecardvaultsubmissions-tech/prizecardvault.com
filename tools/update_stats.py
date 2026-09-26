@@ -8,7 +8,7 @@ Sources (free, no key):
   NFL/NBA/WNBA/NHL: ESPN public site/core JSON (site.web.api.espn.com, sports.core.api.espn.com) - unofficial, undocumented
   MLB:              MLB StatsAPI (statsapi.mlb.com) - (c) MLB Advanced Media, non-commercial/individual use terms
   Soccer:           ESPN (club-league seasons via core API statisticslog)
-  NASCAR:           NASCAR's public CDN feed (cf.nascar.com racinginsights points feed, 2024+)
+  NASCAR:           NASCAR's public CDN feed (cf.nascar.com racinginsights points feed, 2024+) - EXPERIMENTAL, no NASCAR cards published yet
 Rules: IDs are only auto-assigned on an exact (normalized) full-name match with exactly one candidate in the
 expected league; anything else is flagged, never guessed. If a fetch fails the previous JSON is kept.
 """
@@ -247,6 +247,8 @@ def nascar(pid):
             if str(r.get('driver_id')) == str(pid):
                 rows.append({'season': str(yr), 'year': yr, 'team': f"#{r.get('car_no', '')} {r.get('manufacturer', '')}".strip(),
                              'stats': [str(r.get(k, '')) for _, k in NASCAR_COLS]})
+    # the CDN sometimes serves the current feed under a past year's path; drop exact duplicates of a later year
+    rows = [r for i, r in enumerate(rows) if not any(r['stats'] == q['stats'] for q in rows[i + 1:])]
     if not rows: return None
     car = [''] + [str(int(sum(num(r['stats'][i]) for r in rows))) for i in range(1, len(NASCAR_COLS))]
     return {'player': {'name': None, 'team': rows[-1]['team'], 'position': 'Driver', 'jersey': None},
