@@ -244,7 +244,7 @@ def page_404():
 // Legacy routes from the old app: send them somewhere useful.
 (function(){{var p=location.pathname.replace(/\\/+$/,'');
 var m=p.match(/^\\/c\\/([a-z0-9-]+)(\\/.*)?$/);
-if(m&&p!=='/c/'+m[1]){{location.replace('/c/'+m[1]);return;}}
+if(m&&location.pathname!=='/c/'+m[1]){{location.replace('/c/'+m[1]+location.search+location.hash);return;}}
 var map={{'/membership':'{SHOP}','/myprizecardvault':'{SHOP}','/checkout':'{SHOP}/cart','/cart':'{SHOP}/cart','/login':'/','/index.html':'/'}};
 if(map[p])location.replace(map[p]);}})();
 </script>
