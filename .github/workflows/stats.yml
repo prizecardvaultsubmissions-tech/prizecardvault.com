@@ -1,0 +1,42 @@
+name: Refresh player stats
+
+on:
+  schedule:
+    - cron: "23 10 * * *"   # daily, ~6:23 AM ET (10:23 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats-refresh
+  cancel-in-progress: false
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # stdlib only - no pip install needed. Resolves any new "pending" entries in data/player-ids.json,
+      # then refreshes docs/data/stats/{slug}.json (files are only rewritten when numbers change).
+      - name: Update stats
+        run: python3 tools/update_stats.py --resolve
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # ignore runs where only the run-timestamp file changed
+          if git diff --quiet -- docs/data/stats data/player-ids.json ':(exclude)docs/data/stats/_meta.json' \
+             && [ -z "$(git ls-files --others --exclude-standard docs/data/stats)" ]; then
+            echo "No stat changes."; exit 0
+          fi
+          git add docs/data/stats data/player-ids.json
+          git commit -m "Update player stats $(date -u +%Y-%m-%d)"
+          git push

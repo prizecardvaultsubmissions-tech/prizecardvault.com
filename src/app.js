@@ -131,3 +131,76 @@
     apply();
   }
 })();
+
+// Stats tab (sports cards): renders /data/stats/{slug}.json client-side
+(function () {
+  var tabs = document.querySelector('.viewtabs'), panel = document.getElementById('stats');
+  if (!tabs || !panel) return;
+  var loaded = false;
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function show(view, push) {
+    var stats = view === 'stats';
+    tabs.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-selected', b.getAttribute('data-view') === view); });
+    panel.hidden = !stats;
+    if (stats && !loaded) load();
+    if (push !== false) history.replaceState(null, '', stats ? '#stats' : location.pathname + location.search);
+  }
+  tabs.addEventListener('click', function (e) { var b = e.target.closest('button[data-view]'); if (b) show(b.getAttribute('data-view')); });
+  window.addEventListener('hashchange', function () { show(location.hash === '#stats' ? 'stats' : 'card', false); });
+  var REASON = {
+    'multi-player': 'This card features several players, so there’s no single stat line to show.',
+    'coach': 'This card honors a coach — player stats don’t apply.',
+    'executive': 'This card honors a front-office executive — player stats don’t apply.',
+    'no-stats-yet': 'No regular-season stats have been recorded yet. Check back after game day.',
+    'no-confident-match': 'We’re confirming this player’s record before showing numbers.',
+    'no-source': 'We’re still lining up a reliable stats source for this athlete.'
+  };
+  function fmtDate(iso) {
+    try { return new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }); } catch (e) { return iso; }
+  }
+  function soon(d) {
+    var r = (d && REASON[d.reason]) || 'Stats for this card are on the way.';
+    return '<div class="st-soon"><p class="eyebrow">Stats</p><h2>Stats coming soon</h2><p>' + esc(r) + '</p>' +
+      (d && d.updated ? '<p class="st-foot" style="border:0">Checked ' + esc(fmtDate(d.updated)) + '</p>' : '') + '</div>';
+  }
+  function table(g, curYear) {
+    var plain = g.plain, h = '<div class="tbl"><table><thead><tr>' + (plain ? '' : '<th>Season</th><th>Team</th>') +
+      g.columns.map(function (c) { return '<th>' + esc(c) + '</th>'; }).join('') + '</tr></thead><tbody>';
+    g.rows.forEach(function (r) {
+      h += '<tr' + (!plain && r.year === curYear ? ' class="cur"' : '') + '>' + (plain ? '<td>' + esc(r.season) + '</td>' : '<td>' + esc(r.season) + '</td><td>' + esc(r.team) + '</td>') +
+        r.stats.map(function (v) { return '<td>' + esc(v) + '</td>'; }).join('') + '</tr>';
+    });
+    if (g.career) h += '<tr class="career"><td>' + esc(g.careerLabel || 'Career') + '</td>' + (plain ? '' : '<td></td>') +
+      g.career.map(function (v) { return '<td>' + esc(v) + '</td>'; }).join('') + '</tr>';
+    return h + '</tbody></table></div>';
+  }
+  function render(d) {
+    if (!d || d.status !== 'ok' || !d.groups || !d.groups.length) { panel.firstElementChild.innerHTML = soon(d); return; }
+    var p = d.player || {}, cs = d.currentSeason || {};
+    var meta = [p.team, p.position, p.jersey ? '#' + p.jersey : ''].filter(Boolean).join(' · ');
+    var h = '<div class="st-head"><div><p class="eyebrow">Player stats</p><h2>' + esc(p.name || d.card) + '</h2><p class="meta">' + esc(meta) + '</p></div>' +
+      '<span class="st-league">' + esc(d.league || '') + '</span></div>';
+    // current season (or latest completed season if the new one hasn't started)
+    var g0 = d.groups.filter(function (g) { return !g.plain; })[0] || d.groups[0], vals = g0.current, label;
+    if (vals) label = cs.label + ' season';
+    else if (g0.rows.length && !g0.plain) { var last = g0.rows[g0.rows.length - 1]; vals = last.stats; label = 'Latest season · ' + last.season + (cs.label ? ' (' + cs.label + ' not started or no games yet)' : ''); }
+    if (vals) {
+      h += '<div class="st-now"><h3>' + esc(label) + ' · ' + esc(g0.title) + '</h3><div class="tiles">' +
+        g0.columns.slice(0, 8).map(function (c, i) { return '<div><b>' + esc(vals[i]) + '</b><span>' + esc(c) + '</span></div>'; }).join('') + '</div></div>';
+    }
+    d.groups.forEach(function (g) {
+      h += '<div class="st-block"><h3>' + esc(g.title) + (g.plain ? '' : ' · season by season') + '</h3>' + table(g, cs.year) + '</div>';
+    });
+    var src = d.source || {};
+    h += '<div class="st-foot">' + (d.note ? esc(d.note) + '<br>' : '') + 'Last updated ' + esc(fmtDate(d.updated)) + ' · Source: ' +
+      (src.url ? '<a href="' + esc(src.url) + '" rel="noopener nofollow" target="_blank">' + esc(src.name) + '</a>' : esc(src.name || '')) +
+      '. Regular season only. Unofficial; stats refresh daily and may lag live games.</div>';
+    panel.firstElementChild.innerHTML = h;
+  }
+  function load() {
+    loaded = true;
+    fetch(panel.getAttribute('data-src'), { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw 0; return r.json(); })
+      .then(render).catch(function () { loaded = false; panel.firstElementChild.innerHTML = soon(null); });
+  }
+  if (location.hash === '#stats') show('stats', false);
+})();

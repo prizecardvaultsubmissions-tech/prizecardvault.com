@@ -195,6 +195,14 @@ def card_page(c):
     vid = f'<video src="/videos/{s}.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>' if s in VIDEOS else ''
     reel_btn = f'<button type="button" class="btn" data-act="reel" aria-pressed="false">{icon("play")}Living reel</button>' if vid else ''
     kind_back = '/' if c['kind'] == 'sports' else '/games'
+    viewtabs = stats_panel = ''
+    if c['kind'] == 'sports':
+        viewtabs = ('<div class="viewtabs" role="tablist" aria-label="Card view">'
+                    '<button type="button" role="tab" id="tab-card" aria-controls="card-view" aria-selected="true" data-view="card">Card</button>'
+                    '<button type="button" role="tab" id="tab-stats" aria-controls="stats" aria-selected="false" data-view="stats">Stats</button></div>')
+        stats_panel = (f'<section class="stats-panel" id="stats" role="tabpanel" aria-labelledby="tab-stats" hidden data-src="/data/stats/{s}.json">'
+                       f'<div class="stats-in"><p class="muted">Loading stats…</p>'
+                       f'<noscript><p class="muted">Stats need JavaScript enabled.</p></noscript></div></section>')
     title = f'{c["name"]} · Prize Custom Card Vault'
     desc = (c['blurb'] or f'{c["name"]} prize card') + ' — hold it in 3D at prizecardvault.com.'
     jsonld = json.dumps({'@context': 'https://schema.org', '@type': 'Product', 'name': c['name'], 'image': f'{SITE}/cards/{s}.jpg',
@@ -204,13 +212,13 @@ def card_page(c):
     body = f'''<body>
 <main class="card-page">
 {header(c['kind'], back=kind_back, clear=True)}
-<div class="stage">{vid}<div class="vignette"></div>
-<div class="scene"><button type="button" class="hint" data-act="hint">Drag to turn · double-tap to bring forward</button>
+<div class="stage" id="card-view">{vid}<div class="vignette"></div>
+{viewtabs}<div class="scene"><button type="button" class="hint" data-act="hint">Drag to turn · double-tap to bring forward</button>
 <div class="card3d{' landscape' if land else ''}" style="--ar:{ar}" data-front="/cards/{s}.jpg" data-back="{back}">
 <div class="card-face front"><img src="/cards/{s}.jpg" alt="{e(c['name'])}" width="{fw}" height="{fh}" draggable="false"><span class="shine"></span></div>
 <div class="card-face back"><img src="{back}" alt="{e(c['name'])} — back" loading="lazy" draggable="false"></div>
 </div></div>
-<div class="dock"><div class="in">
+{stats_panel}<div class="dock"><div class="in">
 <button type="button" class="toggle" data-act="details" aria-expanded="true" aria-controls="card-info-dock">{icon("down")}<span>Hide details</span></button>
 <div id="card-info-dock" class="info"><div>
 <div class="row"><div style="min-width:0"><p class="kicker">{e(kicker)}</p><h1>{e(c['name'])}</h1></div>

@@ -20,3 +20,14 @@ Checkout stays on Squarespace: every Buy button goes to `https://shop.prizecardv
 ## Why `c/{slug}.html`
 GitHub Pages serves `/c/drake-maye` from `c/drake-maye.html` without a redirect, so NFC chips already
 written with `https://prizecardvault.com/c/{slug}` keep working. `/c/{slug}/` is caught by 404.html and redirected.
+
+## Stats tab (sports cards)
+Every sports card page has a **Card | Stats** switch (`/c/{slug}#stats` deep-links). The tab renders
+`docs/data/stats/{slug}.json` client-side — the site stays fully static.
+- `data/player-ids.json` — card → player mapping (`matched` with ESPN/MLB/NASCAR id, or `unmatched` + reason → "Stats coming soon"). Hand-editable.
+- `tools/seed_player_ids.py` — curated subjects/leagues for new cards (`--retry` re-queues no-confident-match entries).
+- `tools/update_stats.py [--resolve]` — stdlib-only fetcher. Auto-matches only on exact name with a single candidate in the
+  expected league (or team+position+jersey hint for common names); never guesses. Keeps the previous JSON if a fetch fails;
+  rewrites a file only when numbers change (`updated` = last data change).
+- `.github/workflows/stats.yml` — runs daily (10:23 UTC) + manual dispatch; commits changed JSON (Pages redeploys).
+Sources: ESPN public JSON (NFL/NBA/WNBA/NHL/soccer), MLB StatsAPI, NASCAR public CDN feed (2024+).

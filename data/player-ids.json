@@ -1,0 +1,1624 @@
+{
+ "_doc": "slug -> player mapping for the Stats tab. Edit by hand; see tools/seed_player_ids.py. status: matched | pending | unmatched. league: nfl|nba|wnba|nhl|mlb|soccer|nascar.",
+ "drake-maye": {
+  "person": "Drake Maye",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431452",
+  "matchedName": "Drake Maye",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "makai-lemon": {
+  "person": "Makai Lemon",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4870795",
+  "matchedName": "Makai Lemon",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "makai-lemon-parallel": {
+  "person": "Makai Lemon",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4870795",
+  "matchedName": "Makai Lemon",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "howie-roseman": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "executive"
+ },
+ "jayden-daniels": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jaxon-dart": {
+  "person": "Jaxson Dart",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4689114",
+  "matchedName": "Jaxson Dart",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "nick-sirianni": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "no-fly-zone": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "run-it-back": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "jordan-mailata": {
+  "person": "Jordan Mailata",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4334215",
+  "matchedName": "Jordan Mailata",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "cosmic-stones": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "red-alert": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "sixers-treasures": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "sean-mannion": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "lane-johnson": {
+  "person": "Lane Johnson",
+  "league": "nfl",
+  "status": "matched",
+  "id": "15797",
+  "matchedName": "Lane Johnson",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-carter": {
+  "person": "Jalen Carter",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4685759",
+  "matchedName": "Jalen Carter",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "cooper-dejean": {
+  "person": "Cooper DeJean",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4682618",
+  "matchedName": "Cooper DeJean",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-buried": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "myles-garrett": {
+  "person": "Myles Garrett",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3122132",
+  "matchedName": "Myles Garrett",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-underrated": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-underrated-v2": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "slim-reaper-classic": {
+  "person": "DeVonta Smith",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "PHI",
+   "position": "WR",
+   "jersey": "6"
+  },
+  "id": "4241478",
+  "matchedName": "DeVonta Smith",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'PHI', 'position': 'WR', 'jersey': '6'}"
+ },
+ "slim-reaper-yokai": {
+  "person": "DeVonta Smith",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "PHI",
+   "position": "WR",
+   "jersey": "6"
+  },
+  "id": "4241478",
+  "matchedName": "DeVonta Smith",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'PHI', 'position': 'WR', 'jersey': '6'}"
+ },
+ "slim-reaper-action": {
+  "person": "DeVonta Smith",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "PHI",
+   "position": "WR",
+   "jersey": "6"
+  },
+  "id": "4241478",
+  "matchedName": "DeVonta Smith",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'PHI', 'position': 'WR', 'jersey': '6'}"
+ },
+ "tyler-shough-second-wave": {
+  "person": "Tyler Shough",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4360689",
+  "matchedName": "Tyler Shough",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "trevor-lawrence-sunrise": {
+  "person": "Trevor Lawrence",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4360310",
+  "matchedName": "Trevor Lawrence",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "tyler-shough-saints-rise": {
+  "person": "Tyler Shough",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4360689",
+  "matchedName": "Tyler Shough",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "trevor-lawrence-tall-order": {
+  "person": "Trevor Lawrence",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4360310",
+  "matchedName": "Trevor Lawrence",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "bo-nix-orange-lightning": {
+  "person": "Bo Nix",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426338",
+  "matchedName": "Bo Nix",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "caleb-williams-showtime": {
+  "person": "Caleb Williams",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431611",
+  "matchedName": "Caleb Williams",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "caleb-williams-franchise": {
+  "person": "Caleb Williams",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431611",
+  "matchedName": "Caleb Williams",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "josh-allen-unstoppable": {
+  "person": "Josh Allen",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "BUF",
+   "position": "QB",
+   "jersey": "17"
+  },
+  "id": "3918298",
+  "matchedName": "Josh Allen",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'BUF', 'position': 'QB', 'jersey': '17'}"
+ },
+ "josh-allen-highmark-king": {
+  "person": "Josh Allen",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "BUF",
+   "position": "QB",
+   "jersey": "17"
+  },
+  "id": "3918298",
+  "matchedName": "Josh Allen",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'BUF', 'position': 'QB', 'jersey': '17'}"
+ },
+ "bo-nix-cool-hand": {
+  "person": "Bo Nix",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426338",
+  "matchedName": "Bo Nix",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "lamar-jackson": {
+  "person": "Lamar Jackson",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "BAL",
+   "position": "QB",
+   "jersey": "8"
+  },
+  "id": "3916387",
+  "matchedName": "Lamar Jackson",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'BAL', 'position': 'QB', 'jersey': '8'}"
+ },
+ "dontayvion-wicks": {
+  "person": "Dontayvion Wicks",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4428850",
+  "matchedName": "Dontayvion Wicks",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "riq-woolen": {
+  "person": "Riq Woolen",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4245185",
+  "matchedName": "Riq Woolen",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "uar-bernard": {
+  "person": "Uar Bernard",
+  "league": "nfl",
+  "status": "matched",
+  "id": "5344966",
+  "matchedName": "Uar Bernard",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jordan-davis": {
+  "person": "Jordan Davis",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "PHI",
+   "position": "DT",
+   "jersey": "90"
+  },
+  "id": "4381558",
+  "matchedName": "Jordan Davis",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'PHI', 'position': 'DT', 'jersey': '90'}"
+ },
+ "jalen-hurts-select": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "isaiah-likely": {
+  "person": "Isaiah Likely",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4361050",
+  "matchedName": "Isaiah Likely",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "brock-purdy": {
+  "person": "Brock Purdy",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4361741",
+  "matchedName": "Brock Purdy",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "amon-ra-st-brown": {
+  "person": "Amon-Ra St. Brown",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4374302",
+  "matchedName": "Amon-Ra St. Brown",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "shedeur-sanders": {
+  "person": "Shedeur Sanders",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4432762",
+  "matchedName": "Shedeur Sanders",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "malik-nabers": {
+  "person": "Malik Nabers",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4595348",
+  "matchedName": "Malik Nabers",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "matthew-stafford": {
+  "person": "Matthew Stafford",
+  "league": "nfl",
+  "status": "matched",
+  "id": "12483",
+  "matchedName": "Matthew Stafford",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jared-goff": {
+  "person": "Jared Goff",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3046779",
+  "matchedName": "Jared Goff",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "joe-burrow": {
+  "person": "Joe Burrow",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3915511",
+  "matchedName": "Joe Burrow",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "sophie-cunningham": {
+  "person": "Sophie Cunningham",
+  "league": "wnba",
+  "status": "matched",
+  "id": "3907781",
+  "matchedName": "Sophie Cunningham",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-lazer": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "rhys-hoskins": {
+  "person": "Rhys Hoskins",
+  "league": "mlb",
+  "status": "matched",
+  "id": "656555",
+  "matchedName": "Rhys Hoskins",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "cooper-dejean-rc": {
+  "person": "Cooper DeJean",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4682618",
+  "matchedName": "Cooper DeJean",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "shedeur-sanders-kings": {
+  "person": "Shedeur Sanders",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4432762",
+  "matchedName": "Shedeur Sanders",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-chrome": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-kings": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "saquon-barkley": {
+  "person": "Saquon Barkley",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3929630",
+  "matchedName": "Saquon Barkley",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "makai-lemon-topps-now": {
+  "person": "Makai Lemon",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4870795",
+  "matchedName": "Makai Lemon",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "trevor-lawrence-prizm": {
+  "person": "Trevor Lawrence",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4360310",
+  "matchedName": "Trevor Lawrence",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "tutu-atwell": {
+  "person": "Tutu Atwell",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4360797",
+  "matchedName": "Tutu Atwell",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "drake-maye-origins": {
+  "person": "Drake Maye",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431452",
+  "matchedName": "Drake Maye",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "wembanyama-8bit": {
+  "person": "Victor Wembanyama",
+  "league": "nba",
+  "status": "matched",
+  "id": "5104157",
+  "matchedName": "Victor Wembanyama",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "drake-maye-crusade": {
+  "person": "Drake Maye",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431452",
+  "matchedName": "Drake Maye",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-suite": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "quinyon-mitchell-select": {
+  "person": "Quinyon Mitchell",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4686273",
+  "matchedName": "Quinyon Mitchell",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-airborne": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "tank-bigsby": {
+  "person": "Tank Bigsby",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4429013",
+  "matchedName": "Tank Bigsby",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "eagles-quad": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "jayden-daniels-clearly": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "lebron-james": {
+  "person": "LeBron James",
+  "league": "nba",
+  "status": "matched",
+  "id": "1966",
+  "matchedName": "LeBron James",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-vortex": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-arrow": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-gold": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "philadelphia-five": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "philadelphia-treasures": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "multi-player"
+ },
+ "cooper-dejean-fedora": {
+  "person": "Cooper DeJean",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4682618",
+  "matchedName": "Cooper DeJean",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "nick-sirianni-peace": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "nick-sirianni-four": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "mind-tricks": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "unclear-subject"
+ },
+ "jalen-hurts-island": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jordan-mailata-aloha": {
+  "person": "Jordan Mailata",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4334215",
+  "matchedName": "Jordan Mailata",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "makai-lemon-oil": {
+  "person": "Makai Lemon",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4870795",
+  "matchedName": "Makai Lemon",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-gaze": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-prism": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-locker": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-starburst": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-heisman": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-city": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-snow": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-lights": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-night": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-crystal": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-rain": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-tunnel": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-anime": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-crown": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayden-daniels-scramble": {
+  "person": "Jayden Daniels",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426348",
+  "matchedName": "Jayden Daniels",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "frankie-luvu": {
+  "person": "Frankie Luvu",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3127273",
+  "matchedName": "Frankie Luvu",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "cam-skattebo-mud": {
+  "person": "Cam Skattebo",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4696981",
+  "matchedName": "Cam Skattebo",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "cam-skattebo": {
+  "person": "Cam Skattebo",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4696981",
+  "matchedName": "Cam Skattebo",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "ceedee-lamb": {
+  "person": "CeeDee Lamb",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4241389",
+  "matchedName": "CeeDee Lamb",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "james-cook-iii": {
+  "person": "James Cook III",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4379399",
+  "matchedName": "James Cook III",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "bobby-wagner": {
+  "person": "Bobby Wagner",
+  "league": "nfl",
+  "status": "matched",
+  "id": "14979",
+  "matchedName": "Bobby Wagner",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "aj-brown": {
+  "person": "A.J. Brown",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4047646",
+  "matchedName": "A.J. Brown",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "vic-fangio": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "vic-fangio-sideline": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "christian-mccaffrey": {
+  "person": "Christian McCaffrey",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3117251",
+  "matchedName": "Christian McCaffrey",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "christian-mccaffrey-dive": {
+  "person": "Christian McCaffrey",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3117251",
+  "matchedName": "Christian McCaffrey",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "derrick-henry": {
+  "person": "Derrick Henry",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3043078",
+  "matchedName": "Derrick Henry",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "travis-kelce-snow": {
+  "person": "Travis Kelce",
+  "league": "nfl",
+  "status": "matched",
+  "id": "15847",
+  "matchedName": "Travis Kelce",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "james-cook-iii-halo": {
+  "person": "James Cook III",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4379399",
+  "matchedName": "James Cook III",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "travis-kelce-crystal": {
+  "person": "Travis Kelce",
+  "league": "nfl",
+  "status": "matched",
+  "id": "15847",
+  "matchedName": "Travis Kelce",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "bobby-wagner-halo": {
+  "person": "Bobby Wagner",
+  "league": "nfl",
+  "status": "matched",
+  "id": "14979",
+  "matchedName": "Bobby Wagner",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "khalil-shakir": {
+  "person": "Khalil Shakir",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4373678",
+  "matchedName": "Khalil Shakir",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "aj-brown-cathedral": {
+  "person": "A.J. Brown",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4047646",
+  "matchedName": "A.J. Brown",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "patrick-mahomes": {
+  "person": "Patrick Mahomes",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3139477",
+  "matchedName": "Patrick Mahomes",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "ty-simpson": {
+  "person": "Ty Simpson",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4685522",
+  "matchedName": "Ty Simpson",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "patrick-mahomes-crystal": {
+  "person": "Patrick Mahomes",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3139477",
+  "matchedName": "Patrick Mahomes",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "travis-kelce-locker": {
+  "person": "Travis Kelce",
+  "league": "nfl",
+  "status": "matched",
+  "id": "15847",
+  "matchedName": "Travis Kelce",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "luke-mccaffrey": {
+  "person": "Luke McCaffrey",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4426948",
+  "matchedName": "Luke McCaffrey",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "derrick-henry-crystal": {
+  "person": "Derrick Henry",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3043078",
+  "matchedName": "Derrick Henry",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jaxson-dart-crystal": {
+  "person": "Jaxson Dart",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4689114",
+  "matchedName": "Jaxson Dart",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "bobby-wagner-crystal": {
+  "person": "Bobby Wagner",
+  "league": "nfl",
+  "status": "matched",
+  "id": "14979",
+  "matchedName": "Bobby Wagner",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "vic-fangio-tunnel": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "jaxson-dart-six": {
+  "person": "Jaxson Dart",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4689114",
+  "matchedName": "Jaxson Dart",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "vic-fangio-hoodie": {
+  "person": null,
+  "status": "unmatched",
+  "reason": "coach"
+ },
+ "dak-prescott": {
+  "person": "Dak Prescott",
+  "league": "nfl",
+  "status": "matched",
+  "id": "2577417",
+  "matchedName": "Dak Prescott",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "christian-mccaffrey-locker": {
+  "person": "Christian McCaffrey",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3117251",
+  "matchedName": "Christian McCaffrey",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "cam-skattebo-crystal": {
+  "person": "Cam Skattebo",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4696981",
+  "matchedName": "Cam Skattebo",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-prism": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-temple": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-halo": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-gloves": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-snow": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-fireworks": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-huddle": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-phoenix": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-film": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-scramble": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-sneak": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-paint": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-snap": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jalen-hurts-rain": {
+  "person": "Jalen Hurts",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4040715",
+  "matchedName": "Jalen Hurts",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "victor-wembanyama-dunk": {
+  "person": "Victor Wembanyama",
+  "league": "nba",
+  "status": "matched",
+  "id": "5104157",
+  "matchedName": "Victor Wembanyama",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "stephen-curry-glass": {
+  "person": "Stephen Curry",
+  "league": "nba",
+  "status": "matched",
+  "id": "3975",
+  "matchedName": "Stephen Curry",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "tyrese-maxey-nave": {
+  "person": "Tyrese Maxey",
+  "league": "nba",
+  "status": "matched",
+  "id": "4431678",
+  "matchedName": "Tyrese Maxey",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "erling-haaland-nave": {
+  "person": "Erling Haaland",
+  "league": "soccer",
+  "leagues": [
+   "aut.1",
+   "ger.1",
+   "eng.1"
+  ],
+  "status": "matched",
+  "id": "253989",
+  "matchedName": "Erling Haaland",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "erling-haaland-locker": {
+  "person": "Erling Haaland",
+  "league": "soccer",
+  "leagues": [
+   "aut.1",
+   "ger.1",
+   "eng.1"
+  ],
+  "status": "matched",
+  "id": "253989",
+  "matchedName": "Erling Haaland",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "victor-wembanyama-spray": {
+  "person": "Victor Wembanyama",
+  "league": "nba",
+  "status": "matched",
+  "id": "5104157",
+  "matchedName": "Victor Wembanyama",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "victor-wembanyama-nave": {
+  "person": "Victor Wembanyama",
+  "league": "nba",
+  "status": "matched",
+  "id": "5104157",
+  "matchedName": "Victor Wembanyama",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "tyrese-maxey-glass": {
+  "person": "Tyrese Maxey",
+  "league": "nba",
+  "status": "matched",
+  "id": "4431678",
+  "matchedName": "Tyrese Maxey",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "vj-edgecombe-glass": {
+  "person": "VJ Edgecombe",
+  "league": "nba",
+  "status": "matched",
+  "id": "5124612",
+  "matchedName": "VJ Edgecombe",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "vj-edgecombe-nave": {
+  "person": "VJ Edgecombe",
+  "league": "nba",
+  "status": "matched",
+  "id": "5124612",
+  "matchedName": "VJ Edgecombe",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "olivia-miles-glass": {
+  "person": "Olivia Miles",
+  "league": "wnba",
+  "status": "matched",
+  "id": "4433791",
+  "matchedName": "Olivia Miles",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "olivia-miles-polaroid": {
+  "person": "Olivia Miles",
+  "league": "wnba",
+  "status": "matched",
+  "id": "4433791",
+  "matchedName": "Olivia Miles",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "olivia-miles-chrome": {
+  "person": "Olivia Miles",
+  "league": "wnba",
+  "status": "matched",
+  "id": "4433791",
+  "matchedName": "Olivia Miles",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "sam-gordon": {
+  "person": "Sam Gordon",
+  "status": "unmatched",
+  "reason": "no-source",
+  "note": "No free public stats source for women's flag football; ESPN search only returns an unrelated soccer player."
+ },
+ "ellisyn-knapo": {
+  "person": "Ellisyn Knapo",
+  "status": "unmatched",
+  "reason": "no-source",
+  "note": "Not found in ESPN, MLB StatsAPI or other public sources."
+ },
+ "matthew-stafford-oil": {
+  "person": "Matthew Stafford",
+  "league": "nfl",
+  "status": "matched",
+  "id": "12483",
+  "matchedName": "Matthew Stafford",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "lionel-messi-nave": {
+  "person": "Lionel Messi",
+  "league": "soccer",
+  "leagues": [
+   "esp.1",
+   "fra.1",
+   "usa.1"
+  ],
+  "status": "matched",
+  "id": "45843",
+  "matchedName": "Lionel Messi",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "bryce-harper-glass": {
+  "person": "Bryce Harper",
+  "league": "mlb",
+  "status": "matched",
+  "id": "547180",
+  "matchedName": "Bryce Harper",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "paige-bueckers-spray": {
+  "person": "Paige Bueckers",
+  "league": "wnba",
+  "status": "matched",
+  "id": "4433730",
+  "matchedName": "Paige Bueckers",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "lionel-messi-spray": {
+  "person": "Lionel Messi",
+  "league": "soccer",
+  "leagues": [
+   "esp.1",
+   "fra.1",
+   "usa.1"
+  ],
+  "status": "matched",
+  "id": "45843",
+  "matchedName": "Lionel Messi",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "shohei-ohtani-splash": {
+  "person": "Shohei Ohtani",
+  "league": "mlb",
+  "status": "matched",
+  "id": "660271",
+  "matchedName": "Shohei Ohtani",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "sam-darnold-nave": {
+  "person": "Sam Darnold",
+  "league": "nfl",
+  "status": "matched",
+  "id": "3912547",
+  "matchedName": "Sam Darnold",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "drake-maye-nave": {
+  "person": "Drake Maye",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431452",
+  "matchedName": "Drake Maye",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "micah-parsons-glass": {
+  "person": "Micah Parsons",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4361423",
+  "matchedName": "Micah Parsons",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "drake-maye-spray": {
+  "person": "Drake Maye",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4431452",
+  "matchedName": "Drake Maye",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "patrick-surtain-ii": {
+  "person": "Patrick Surtain II",
+  "league": "nfl",
+  "status": "matched",
+  "searchName": "Pat Surtain II",
+  "id": "4372012",
+  "matchedName": "Pat Surtain II",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jaxon-smith-njigba": {
+  "person": "Jaxon Smith-Njigba",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4430878",
+  "matchedName": "Jaxon Smith-Njigba",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jamarr-chase-nave": {
+  "person": "Ja'Marr Chase",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4362628",
+  "matchedName": "Ja'Marr Chase",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "will-anderson-jr": {
+  "person": "Will Anderson Jr.",
+  "league": "nfl",
+  "status": "matched",
+  "id": "4685724",
+  "matchedName": "Will Anderson Jr.",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayson-tatum-dunk": {
+  "person": "Jayson Tatum",
+  "league": "nba",
+  "status": "matched",
+  "id": "4065648",
+  "matchedName": "Jayson Tatum",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "jayson-tatum-nave": {
+  "person": "Jayson Tatum",
+  "league": "nba",
+  "status": "matched",
+  "id": "4065648",
+  "matchedName": "Jayson Tatum",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "bryce-harper-oil": {
+  "person": "Bryce Harper",
+  "league": "mlb",
+  "status": "matched",
+  "id": "547180",
+  "matchedName": "Bryce Harper",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "kyle-schwarber-glass": {
+  "person": "Kyle Schwarber",
+  "league": "mlb",
+  "status": "matched",
+  "id": "656941",
+  "matchedName": "Kyle Schwarber",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "mike-trout-spray": {
+  "person": "Mike Trout",
+  "league": "mlb",
+  "status": "matched",
+  "id": "545361",
+  "matchedName": "Mike Trout",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "yoshinobu-yamamoto-splash": {
+  "person": "Yoshinobu Yamamoto",
+  "league": "mlb",
+  "status": "matched",
+  "id": "808967",
+  "matchedName": "Yoshinobu Yamamoto",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "yoshinobu-yamamoto-pane": {
+  "person": "Yoshinobu Yamamoto",
+  "league": "mlb",
+  "status": "matched",
+  "id": "808967",
+  "matchedName": "Yoshinobu Yamamoto",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "shohei-ohtani-locker": {
+  "person": "Shohei Ohtani",
+  "league": "mlb",
+  "status": "matched",
+  "id": "660271",
+  "matchedName": "Shohei Ohtani",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "matthew-stafford-nave": {
+  "person": "Matthew Stafford",
+  "league": "nfl",
+  "status": "matched",
+  "id": "12483",
+  "matchedName": "Matthew Stafford",
+  "matchedOn": "2026-09-26",
+  "match": "exact-name, single candidate in league"
+ },
+ "josh-allen-oil": {
+  "person": "Josh Allen",
+  "league": "nfl",
+  "status": "matched",
+  "hint": {
+   "team": "BUF",
+   "position": "QB",
+   "jersey": "17"
+  },
+  "id": "3918298",
+  "matchedName": "Josh Allen",
+  "matchedOn": "2026-09-26",
+  "match": "2 same-name candidates; disambiguated by team+position+jersey {'team': 'BUF', 'position': 'QB', 'jersey': '17'}"
+ }
+}
