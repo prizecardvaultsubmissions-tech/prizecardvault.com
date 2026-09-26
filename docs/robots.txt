@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prizecardvault.com/sitemap.xml

@@ -1,0 +1,3180 @@
+{
+"drake-maye": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+807,
+1200
+]
+},
+"makai-lemon": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+784,
+1168
+]
+},
+"makai-lemon-parallel": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+752,
+1133
+]
+},
+"howie-roseman": {
+"front": [
+860,
+1200
+],
+"thumb": [
+400,
+558
+],
+"back": [
+859,
+1200
+]
+},
+"jayden-daniels": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+784,
+1168
+]
+},
+"jaxon-dart": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+807,
+1200
+]
+},
+"nick-sirianni": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+784,
+1168
+]
+},
+"no-fly-zone": {
+"front": [
+825,
+1200
+],
+"thumb": [
+400,
+582
+],
+"back": [
+831,
+1200
+]
+},
+"run-it-back": {
+"front": [
+839,
+1200
+],
+"thumb": [
+400,
+572
+],
+"back": [
+829,
+1200
+]
+},
+"jordan-mailata": {
+"front": [
+823,
+1200
+],
+"thumb": [
+400,
+583
+],
+"back": [
+826,
+1200
+]
+},
+"cosmic-stones": {
+"front": [
+1200,
+808
+],
+"thumb": [
+400,
+269
+],
+"back": [
+1050,
+750
+]
+},
+"red-alert": {
+"front": [
+1200,
+788
+],
+"thumb": [
+400,
+263
+],
+"back": [
+1200,
+784
+]
+},
+"sixers-treasures": {
+"front": [
+1050,
+750
+],
+"thumb": [
+400,
+286
+],
+"back": [
+1200,
+854
+]
+},
+"sean-mannion": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+784,
+1168
+]
+},
+"lane-johnson": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+784,
+1168
+]
+},
+"jalen-carter": {
+"front": [
+853,
+1200
+],
+"thumb": [
+400,
+563
+],
+"back": [
+605,
+825
+]
+},
+"cooper-dejean": {
+"front": [
+835,
+1200
+],
+"thumb": [
+400,
+575
+],
+"back": [
+835,
+1200
+]
+},
+"jalen-hurts-buried": {
+"front": [
+879,
+1200
+],
+"thumb": [
+400,
+546
+],
+"back": [
+879,
+1200
+]
+},
+"jalen-hurts": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+852,
+1200
+]
+},
+"myles-garrett": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+807,
+1200
+]
+},
+"jalen-hurts-underrated": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+797,
+1200
+]
+},
+"jalen-hurts-underrated-v2": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+797,
+1200
+]
+},
+"slim-reaper-classic": {
+"front": [
+1200,
+807
+],
+"thumb": [
+400,
+269
+],
+"back": [
+1200,
+807
+]
+},
+"slim-reaper-yokai": {
+"front": [
+1200,
+807
+],
+"thumb": [
+400,
+269
+],
+"back": [
+1200,
+807
+]
+},
+"slim-reaper-action": {
+"front": [
+1200,
+807
+],
+"thumb": [
+400,
+269
+],
+"back": [
+1200,
+807
+]
+},
+"tyler-shough-second-wave": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+779,
+1200
+]
+},
+"trevor-lawrence-sunrise": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"tyler-shough-saints-rise": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"trevor-lawrence-tall-order": {
+"front": [
+789,
+1200
+],
+"thumb": [
+400,
+608
+],
+"back": [
+799,
+1200
+]
+},
+"bo-nix-orange-lightning": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+787,
+1200
+]
+},
+"caleb-williams-showtime": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+802,
+1200
+]
+},
+"caleb-williams-franchise": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+807,
+1200
+]
+},
+"josh-allen-unstoppable": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"josh-allen-highmark-king": {
+"front": [
+813,
+1200
+],
+"thumb": [
+400,
+590
+],
+"back": [
+799,
+1200
+]
+},
+"bo-nix-cool-hand": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"lamar-jackson": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"dontayvion-wicks": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"riq-woolen": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+799,
+1200
+]
+},
+"uar-bernard": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+799,
+1200
+]
+},
+"jordan-davis": {
+"front": [
+807,
+1200
+],
+"thumb": [
+400,
+595
+],
+"back": [
+798,
+1200
+]
+},
+"jalen-hurts-select": {
+"front": [
+799,
+1200
+],
+"thumb": [
+400,
+601
+],
+"back": [
+799,
+1200
+]
+},
+"isaiah-likely": {
+"front": [
+1200,
+946
+],
+"thumb": [
+400,
+315
+],
+"back": [
+1200,
+949
+]
+},
+"brock-purdy": {
+"front": [
+1200,
+946
+],
+"thumb": [
+400,
+315
+],
+"back": [
+1200,
+950
+]
+},
+"amon-ra-st-brown": {
+"front": [
+1200,
+949
+],
+"thumb": [
+400,
+316
+],
+"back": [
+1200,
+946
+]
+},
+"shedeur-sanders": {
+"front": [
+1200,
+946
+],
+"thumb": [
+400,
+315
+],
+"back": [
+1200,
+947
+]
+},
+"malik-nabers": {
+"front": [
+1200,
+949
+],
+"thumb": [
+400,
+316
+],
+"back": [
+1200,
+949
+]
+},
+"matthew-stafford": {
+"front": [
+1200,
+946
+],
+"thumb": [
+400,
+315
+],
+"back": [
+1200,
+946
+]
+},
+"jared-goff": {
+"front": [
+1200,
+947
+],
+"thumb": [
+400,
+316
+],
+"back": [
+1200,
+946
+]
+},
+"joe-burrow": {
+"front": [
+1200,
+946
+],
+"thumb": [
+400,
+315
+],
+"back": [
+1200,
+946
+]
+},
+"sophie-cunningham": {
+"front": [
+797,
+1200
+],
+"thumb": [
+400,
+602
+],
+"back": [
+710,
+1200
+]
+},
+"jayden-daniels-lazer": {
+"front": [
+720,
+1112
+],
+"thumb": [
+400,
+618
+]
+},
+"rhys-hoskins": {
+"front": [
+834,
+1200
+],
+"thumb": [
+400,
+576
+]
+},
+"cooper-dejean-rc": {
+"front": [
+797,
+1200
+],
+"thumb": [
+400,
+602
+]
+},
+"shedeur-sanders-kings": {
+"front": [
+726,
+1200
+],
+"thumb": [
+400,
+661
+]
+},
+"jalen-hurts-chrome": {
+"front": [
+769,
+1200
+],
+"thumb": [
+400,
+624
+]
+},
+"jalen-hurts-kings": {
+"front": [
+726,
+1200
+],
+"thumb": [
+400,
+661
+]
+},
+"saquon-barkley": {
+"front": [
+672,
+1200
+],
+"thumb": [
+400,
+714
+]
+},
+"makai-lemon-topps-now": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"trevor-lawrence-prizm": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"tutu-atwell": {
+"front": [
+1200,
+857
+],
+"thumb": [
+400,
+286
+],
+"back": [
+1200,
+857
+]
+},
+"drake-maye-origins": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"wembanyama-8bit": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"drake-maye-crusade": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-suite": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"quinyon-mitchell-select": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-airborne": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"tank-bigsby": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"eagles-quad": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jayden-daniels-clearly": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"lebron-james": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-vortex": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-arrow": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-gold": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"philadelphia-five": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"philadelphia-treasures": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"cooper-dejean-fedora": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"nick-sirianni-peace": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"nick-sirianni-four": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"mind-tricks": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jalen-hurts-island": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jordan-mailata-aloha": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"makai-lemon-oil": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-gaze": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-prism": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-locker": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-starburst": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-heisman": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-city": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-snow": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-lights": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-night": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-rain": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-tunnel": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-anime": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-crown": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jayden-daniels-scramble": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"frankie-luvu": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"cam-skattebo-mud": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"cam-skattebo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"ceedee-lamb": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"james-cook-iii": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"bobby-wagner": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"aj-brown": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"vic-fangio": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"vic-fangio-sideline": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"christian-mccaffrey": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"christian-mccaffrey-dive": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"derrick-henry": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"travis-kelce-snow": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"james-cook-iii-halo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"travis-kelce-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"bobby-wagner-halo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"khalil-shakir": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"aj-brown-cathedral": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"patrick-mahomes": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"ty-simpson": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"patrick-mahomes-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"travis-kelce-locker": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"luke-mccaffrey": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"derrick-henry-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jaxson-dart-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"bobby-wagner-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"vic-fangio-tunnel": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jaxson-dart-six": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"vic-fangio-hoodie": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"dak-prescott": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"christian-mccaffrey-locker": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"cam-skattebo-crystal": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jalen-hurts-prism": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-temple": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-halo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-gloves": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-snow": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-fireworks": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-huddle": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-phoenix": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-film": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-scramble": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-sneak": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-paint": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"jalen-hurts-snap": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jalen-hurts-rain": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"victor-wembanyama-dunk": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"stephen-curry-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"tyrese-maxey-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"erling-haaland-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"erling-haaland-locker": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"victor-wembanyama-spray": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"victor-wembanyama-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"tyrese-maxey-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"vj-edgecombe-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"vj-edgecombe-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"olivia-miles-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"olivia-miles-polaroid": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"olivia-miles-chrome": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"sam-gordon": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"ellisyn-knapo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"matthew-stafford-oil": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"lionel-messi-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"bryce-harper-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"paige-bueckers-spray": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"lionel-messi-spray": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"shohei-ohtani-splash": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"sam-darnold-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"drake-maye-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"micah-parsons-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"drake-maye-spray": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"patrick-surtain-ii": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jaxon-smith-njigba": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jamarr-chase-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"will-anderson-jr": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jayson-tatum-dunk": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"jayson-tatum-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"bryce-harper-oil": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"kyle-schwarber-glass": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"mike-trout-spray": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"yoshinobu-yamamoto-splash": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"yoshinobu-yamamoto-pane": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"shohei-ohtani-locker": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"matthew-stafford-nave": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"josh-allen-oil": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+],
+"back": [
+857,
+1200
+]
+},
+"kakapo-nightowl": {
+"front": [
+863,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"thunderbird": {
+"front": [
+862,
+1200
+],
+"thumb": [
+400,
+557
+]
+},
+"yemoja-manatee": {
+"front": [
+862,
+1200
+],
+"thumb": [
+400,
+557
+]
+},
+"pistol-shrimp-gunner": {
+"front": [
+860,
+1200
+],
+"thumb": [
+400,
+558
+]
+},
+"judas-serpent": {
+"front": [
+851,
+1200
+],
+"thumb": [
+400,
+564
+]
+},
+"thoth-shoebill": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"tarsier-stargazer": {
+"front": [
+856,
+1200
+],
+"thumb": [
+400,
+561
+]
+},
+"eve": {
+"front": [
+854,
+1200
+],
+"thumb": [
+400,
+562
+]
+},
+"bloodfist-bamboo": {
+"front": [
+860,
+1200
+],
+"thumb": [
+400,
+558
+]
+},
+"axolotl-regenerator": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"ceres-bison": {
+"front": [
+855,
+1200
+],
+"thumb": [
+400,
+561
+]
+},
+"ninhursag-tuatara": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"ezekiel-cherub": {
+"front": [
+867,
+1200
+],
+"thumb": [
+400,
+554
+]
+},
+"raven": {
+"front": [
+862,
+1200
+],
+"thumb": [
+400,
+557
+]
+},
+"jonah-whale": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"toxic-ivy-serpent": {
+"front": [
+856,
+1200
+],
+"thumb": [
+400,
+561
+]
+},
+"mary-magdalene": {
+"front": [
+862,
+1200
+],
+"thumb": [
+400,
+557
+]
+},
+"hwanung-amur": {
+"front": [
+859,
+1200
+],
+"thumb": [
+400,
+559
+]
+},
+"man-o-war-queen": {
+"front": [
+858,
+1200
+],
+"thumb": [
+400,
+559
+]
+},
+"moses-serpent": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"coyote-trickster": {
+"front": [
+858,
+1200
+],
+"thumb": [
+400,
+559
+]
+},
+"jesus-lamb": {
+"front": [
+856,
+1200
+],
+"thumb": [
+400,
+561
+]
+},
+"jade-emperor-takin": {
+"front": [
+855,
+1200
+],
+"thumb": [
+400,
+561
+]
+},
+"shiva-snubnose": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"utu-aardvark": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"maned-wolf-odin": {
+"front": [
+864,
+1200
+],
+"thumb": [
+400,
+556
+]
+},
+"chrono-trigger": {
+"front": [
+1079,
+661
+],
+"thumb": [
+400,
+245
+]
+},
+"chrono-trigger-cave": {
+"front": [
+1079,
+659
+],
+"thumb": [
+400,
+244
+]
+},
+"dragon-quest-hero": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"dragon-quest-viii": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"doctor-doom": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"doctor-doom-watercolor": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"kang-the-conqueror": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"sung-jinwoo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"naruto-nine-tails": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"naruto-sage": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"abbey-chase": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"danger-girl": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"chrono-trigger-factory": {
+"front": [
+1200,
+857
+],
+"thumb": [
+400,
+286
+]
+},
+"legend-of-the-dragoon": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"peace-bear": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"tanuki-confessor": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"blackbeard": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"blackbeard-frilled-shark": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"nefertiti": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"sacagawea": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"amelia-earhart": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"harriet-wolverine": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"shaka-zulu": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"boudica-wildcat": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"moctezuma-ii": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"kamehameha-i": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"rani-lakshmibai": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"maui": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"pt-barnum": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"mansa-bongo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"josephine-baker": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"diogenes": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"nikola-tesla": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"sun-wukong": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"hokusai-crab": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"hanuman": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"iron-mask": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"edgar-allan-poe": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"shana-draw": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"shana-moon": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"dart-spear": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"dart-wings": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"rose-dragoon": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"magus": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"crono": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"the-hero": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"shadow-monarch": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"vader-helm": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"vader-eyes": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"kang-oil": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"doctor-doom-eye": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"doom-chains": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"gambit-charge": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"nostradamus": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"sun-tzu-golden-monkey": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"zheng-he": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"hatshepsut-secretary": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"flareon-oil": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"houdini-octopus": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"galileo-galilei": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"mata-hari": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"mwindo": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"hunahpu": {
+"front": [
+857,
+1200
+],
+"thumb": [
+400,
+560
+]
+},
+"_default_back": {
+"back": [
+799,
+1200
+]
+},
+"_videos": [
+"drake-maye-nave",
+"erling-haaland-locker",
+"jalen-hurts-film",
+"jamarr-chase-nave",
+"josh-allen-oil",
+"lionel-messi-nave",
+"shohei-ohtani-locker",
+"vj-edgecombe-nave"
+]
+}
