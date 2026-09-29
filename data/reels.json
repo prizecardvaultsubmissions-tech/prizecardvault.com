@@ -113,6 +113,22 @@
     "file": "grok-video-820b7c0f-efa1-48dd-a7cc-b51296b80e7a.mp4"
    }
   },
+  "cooper-dejean-rc": {
+   "src": "/videos/cooper-dejean-rc.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2751706,
+   "from": "/workspace/reels-master/cooper-dejean-rc.mp4",
+   "source": "Grok Imagine",
+   "crf": 29.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 54392613,
+    "file": "grok-video-d591a50f-aa68-41c9-8aed-09880efea929.mp4"
+   }
+  },
   "cosmic-stones": {
    "src": "/videos/cosmic-stones.mp4",
    "width": 960,
@@ -257,6 +273,22 @@
     "file": "grok-video-58cd423c-7d76-4267-9e81-80c3d594ceb6.mp4"
    }
   },
+  "jalen-hurts-chrome": {
+   "src": "/videos/jalen-hurts-chrome.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2823069,
+   "from": "/workspace/reels-master/jalen-hurts-chrome.mp4",
+   "source": "Grok Imagine",
+   "crf": 22.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 27891068,
+    "file": "grok-video-b7cce8dc-688a-461f-9341-d5ed785655d4.mp4"
+   }
+  },
   "jalen-hurts-film": {
    "src": "/videos/jalen-hurts-film.mp4",
    "width": 720,
@@ -329,6 +361,22 @@
    "bytes": 2381885,
    "from": "/workspace/prizecardvault/ad_assets/jamarr-chase-nave.mp4"
   },
+  "jared-goff": {
+   "src": "/videos/jared-goff.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2701092,
+   "from": "/workspace/reels-master/jared-goff.mp4",
+   "source": "Grok Imagine",
+   "crf": 29.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 45008104,
+    "file": "grok-video-7c232c54-17b0-4023-9712-fe404005d144.mp4"
+   }
+  },
   "jaxon-dart": {
    "src": "/videos/jaxon-dart.mp4",
    "width": 640,
@@ -359,6 +407,38 @@
     "height": 1728,
     "bytes": 34792844,
     "file": "grok-video-022e3cc8-6286-4e60-b019-ceb23d1bcfa4.mp4"
+   }
+  },
+  "jayden-daniels-lazer": {
+   "src": "/videos/jayden-daniels-lazer.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2858745,
+   "from": "/workspace/reels-master/jayden-daniels-lazer.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 29759897,
+    "file": "grok-video-fc1c1963-7ac0-462a-999c-f326c87ab4cb.mp4"
+   }
+  },
+  "joe-burrow": {
+   "src": "/videos/joe-burrow.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2852353,
+   "from": "/workspace/reels-master/joe-burrow.mp4",
+   "source": "Grok Imagine",
+   "crf": 29.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 44856811,
+    "file": "grok-video-6bdefbbb-6d99-40b0-940f-3154cc2056a8.mp4"
    }
   },
   "jordan-davis": {
@@ -489,6 +569,54 @@
     "file": "grok-video-b538711b-0a1f-4c74-afca-8aa25338dd68.mp4"
    }
   },
+  "makai-lemon-topps-now": {
+   "src": "/videos/makai-lemon-topps-now.mp4",
+   "width": 720,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2989791,
+   "from": "/workspace/reels-master/makai-lemon-topps-now.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.5,
+   "master": {
+    "width": 1248,
+    "height": 1664,
+    "bytes": 30053646,
+    "file": "grok-video-5dc41395-69a5-4952-8445-9a1fd3f4a648.mp4"
+   }
+  },
+  "malik-nabers": {
+   "src": "/videos/malik-nabers.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2842000,
+   "from": "/workspace/reels-master/malik-nabers.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 38036864,
+    "file": "grok-video-f8c47627-9a8d-4207-a103-d74fa48e9bc5.mp4"
+   }
+  },
+  "matthew-stafford": {
+   "src": "/videos/matthew-stafford.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2614498,
+   "from": "/workspace/reels-master/matthew-stafford.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 25450341,
+    "file": "grok-video-f407ddae-6106-40dc-b56d-8b19ddbe0111.mp4"
+   }
+  },
   "myles-garrett": {
    "src": "/videos/myles-garrett.mp4",
    "width": 640,
@@ -553,6 +681,22 @@
     "file": "grok-video-735ee14d-c04f-4cbb-bf5c-8362d723f5f5.mp4"
    }
   },
+  "rhys-hoskins": {
+   "src": "/videos/rhys-hoskins.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2104151,
+   "from": "/workspace/reels-master/rhys-hoskins.mp4",
+   "source": "Grok Imagine",
+   "crf": 20.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 12210387,
+    "file": "grok-video-5cc00a88-4276-40dd-837b-01fffc6b1cda.mp4"
+   }
+  },
   "riq-woolen": {
    "src": "/videos/riq-woolen.mp4",
    "width": 640,
@@ -585,6 +729,22 @@
     "file": "grok-video-ac071bce-92f0-43ec-9505-6a2f0ad31a1c.mp4"
    }
   },
+  "saquon-barkley": {
+   "src": "/videos/saquon-barkley.mp4",
+   "width": 544,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2854552,
+   "from": "/workspace/reels-master/saquon-barkley.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.5,
+   "master": {
+    "width": 1088,
+    "height": 1920,
+    "bytes": 24901855,
+    "file": "grok-video-acf57399-b4b8-4fd3-8b71-ec1deffa5d58.mp4"
+   }
+  },
   "sean-mannion": {
    "src": "/videos/sean-mannion.mp4",
    "width": 640,
@@ -599,6 +759,38 @@
     "height": 1728,
     "bytes": 40748496,
     "file": "grok-video-ecdfec96-09a6-4c31-9f9b-7ccc8269f922.mp4"
+   }
+  },
+  "shedeur-sanders": {
+   "src": "/videos/shedeur-sanders.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2916983,
+   "from": "/workspace/reels-master/shedeur-sanders.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 33329599,
+    "file": "grok-video-f96aa442-5581-40aa-97e5-6a527567cb46.mp4"
+   }
+  },
+  "shedeur-sanders-kings": {
+   "src": "/videos/shedeur-sanders-kings.mp4",
+   "width": 544,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2811992,
+   "from": "/workspace/reels-master/shedeur-sanders-kings.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 1088,
+    "height": 1920,
+    "bytes": 36836358,
+    "file": "grok-video-175b2468-0892-448f-922c-0a90cc6eb033.mp4"
    }
   },
   "shohei-ohtani-locker": {
@@ -671,6 +863,22 @@
     "height": 1152,
     "bytes": 44342705,
     "file": "grok-video-497ed95b-b22f-44cb-90d1-a5a607d45dae.mp4"
+   }
+  },
+  "sophie-cunningham": {
+   "src": "/videos/sophie-cunningham.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2773412,
+   "from": "/workspace/reels-master/sophie-cunningham.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 28342771,
+    "file": "grok-video-b2b3d71c-972c-42be-af93-11b5d2b04cdb.mp4"
    }
   },
   "trevor-lawrence-sunrise": {
