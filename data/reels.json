@@ -1,0 +1,117 @@
+{
+ "_note": "slug -> living reel (Grok Imagine video from the old site). Written by tools/import_reels.py; read by build.py.",
+ "reels": {
+  "drake-maye": {
+   "src": "/videos/drake-maye.mp4",
+   "width": 720,
+   "height": 974,
+   "duration": 10.04,
+   "bytes": 935851,
+   "from": "/workspace/kickstarter/video/cinematic/assets/native/try-drake-maye.mp4"
+  },
+  "drake-maye-nave": {
+   "src": "/videos/drake-maye-nave.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 1627982,
+   "from": "/workspace/prizecardvault/ad_assets/drake-maye-nave.mp4"
+  },
+  "drake-maye-spray": {
+   "src": "/videos/drake-maye-spray.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 6086491,
+   "from": "/workspace/kickstarter/video/cinematic/assets/native/try-drake-maye-spray.mp4"
+  },
+  "erling-haaland-locker": {
+   "src": "/videos/erling-haaland-locker.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 1840732,
+   "from": "/workspace/prizecardvault/ad_assets/erling-haaland-locker.mp4"
+  },
+  "jalen-hurts-film": {
+   "src": "/videos/jalen-hurts-film.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 655573,
+   "from": "/workspace/prizecardvault/ad_assets/jalen-hurts-film.mp4"
+  },
+  "jalen-hurts-phoenix": {
+   "src": "/videos/jalen-hurts-phoenix.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 4346746,
+   "from": "/workspace/kickstarter/video/cinematic/assets/native/jalen-hurts-phoenix.mp4"
+  },
+  "jamarr-chase-nave": {
+   "src": "/videos/jamarr-chase-nave.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 2381885,
+   "from": "/workspace/prizecardvault/ad_assets/jamarr-chase-nave.mp4"
+  },
+  "josh-allen-oil": {
+   "src": "/videos/josh-allen-oil.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 2251622,
+   "from": "/workspace/prizecardvault/ad_assets/josh-allen-oil.mp4"
+  },
+  "josh-allen-unstoppable": {
+   "src": "/videos/josh-allen-unstoppable.mp4",
+   "width": 720,
+   "height": 1058,
+   "duration": 10.04,
+   "bytes": 5642793,
+   "from": "/workspace/kickstarter/video/cinematic/assets/native/josh-allen-unstoppable.mp4"
+  },
+  "lamar-jackson": {
+   "src": "/videos/lamar-jackson.mp4",
+   "width": 720,
+   "height": 1058,
+   "duration": 10.04,
+   "bytes": 3523305,
+   "from": "/workspace/kickstarter/video/cinematic/assets/native/lamar-jackson.mp4"
+  },
+  "lionel-messi-nave": {
+   "src": "/videos/lionel-messi-nave.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 2408847,
+   "from": "/workspace/prizecardvault/ad_assets/lionel-messi-nave.mp4"
+  },
+  "shohei-ohtani-locker": {
+   "src": "/videos/shohei-ohtani-locker.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 1905279,
+   "from": "/workspace/prizecardvault/ad_assets/shohei-ohtani-locker.mp4"
+  },
+  "trevor-lawrence-sunrise": {
+   "src": "/videos/trevor-lawrence-sunrise.mp4",
+   "width": 720,
+   "height": 1058,
+   "duration": 10.04,
+   "bytes": 2353342,
+   "from": "/workspace/kickstarter/video/cinematic/assets/native/trevor-lawrence-sunrise.mp4"
+  },
+  "vj-edgecombe-nave": {
+   "src": "/videos/vj-edgecombe-nave.mp4",
+   "width": 720,
+   "height": 1008,
+   "duration": 6.04,
+   "bytes": 1987542,
+   "from": "/workspace/prizecardvault/ad_assets/vj-edgecombe-nave.mp4"
+  }
+ }
+}

@@ -8,14 +8,21 @@ Checkout stays on Squarespace: every Buy button goes to `https://shop.prizecardv
 - `docs/` — **the published site** (GitHub Pages → Deploy from branch `main`, folder `/docs`). Contains `CNAME` (prizecardvault.com), `404.html`, `.nojekyll`.
   - `/` sports gallery · `/games` game gallery · `/shop` (+ `?kind=game`) · `/nfc` · `/reprint` · `/c/{slug}` card pages (271)
   - `cards/{slug}.jpg`, `cards/{slug}-back.jpg`, `cards/back.jpg`, `cards/thumbs/{slug}.jpg|webp` — same paths as the old site
-  - `videos/{slug}.mp4` — living reels that survived (8)
-- `data/cards.json` — catalog (271 cards; order, rarity, blurbs, shop URL). `data/image-dims.json` — image sizes + reel list.
+  - `videos/{slug}.mp4` — living reels (real Grok Imagine videos from the old site; 14). Mapped in `data/reels.json` by `tools/import_reels.py`.
+- `data/cards.json` — catalog (271 cards; order, rarity, blurbs, shop URL). `data/image-dims.json` — image sizes. `data/reels.json` — slug → living reel.
 - `src/styles.css`, `src/app.js` — copied into `docs/assets/` by the build.
 - `build.py` — generates all HTML. `python3 build.py`
 - `tools/prepare_data.py`, `tools/process_images.py` — one-time import from the box capture (not needed to rebuild HTML).
 - `tools/serve.py` — local preview that mimics GitHub Pages (`/c/slug` → `c/slug.html`, 404.html fallback): `python3 tools/serve.py 8765`
 - `tools/crawl.py` — broken-link crawler against the preview.
 - `data/staged-sets.md` — unpublished sets and how to add them.
+
+## Full screen / living reels
+The card page **Full screen** button opens a full-screen player: cards with a reel (`data/reels.json`) play it muted,
+looping and `playsinline` (works on iPhone); cards without a reel show the plate image (current face) full screen.
+Uses element `requestFullscreen` where supported, otherwise a fixed full-viewport overlay (iPhone). ✕ / Esc closes.
+To add reels: put the real Grok Imagine MP4 in `tools/import_reels.py` SOURCES, run it, then `python3 build.py`.
+Never substitute pan/zoom (Ken Burns) videos made from stills.
 
 ## Why `c/{slug}.html`
 GitHub Pages serves `/c/drake-maye` from `c/drake-maye.html` without a redirect, so NFC chips already

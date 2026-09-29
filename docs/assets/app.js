@@ -109,16 +109,63 @@
       stage.classList.toggle('reel', onNow); b.setAttribute('aria-pressed', onNow);
       if (onNow) { v.play().catch(function () {}); } else { v.pause(); }
     });
-    on('[data-act=fs]', function () {
-      var el = document.documentElement;
-      if (document.fullscreenElement) document.exitFullscreen(); else if (el.requestFullscreen) el.requestFullscreen();
-    });
+    // Full screen: plays the card's living reel (muted, looping, inline for iPhone) in a full-screen
+    // player; cards without a reel show the plate image full screen. Native fullscreen where the
+    // browser allows it on an element (desktop, Android, iPad); a fixed full-viewport overlay on iPhone.
+    var fsv = null;
+    function fsEl() { return document.fullscreenElement || document.webkitFullscreenElement || null; }
+    function closeFs() {
+      if (!fsv) return;
+      var o = fsv; fsv = null;
+      var v = $('video', o); if (v) { v.pause(); v.removeAttribute('src'); v.load(); }
+      if (fsEl() === o) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); }
+      o.remove(); document.body.classList.remove('fs-open');
+      var b = $('[data-act=fs]'); if (b) b.focus({ preventScroll: true });
+    }
+    function openFs() {
+      if (fsv) return closeFs();
+      var b = $('[data-act=fs]'), reel = b.getAttribute('data-reel'), name = card.getAttribute('data-name') || '';
+      var o = document.createElement('div');
+      o.className = 'fsv' + (reel ? ' has-reel' : '');
+      o.setAttribute('role', 'dialog'); o.setAttribute('aria-modal', 'true');
+      o.setAttribute('aria-label', name + (reel ? ' — living reel' : ' — full screen'));
+      var media;
+      if (reel) {
+        media = document.createElement('video');
+        media.muted = true; media.defaultMuted = true; media.loop = true; media.autoplay = true; media.playsInline = true;
+        ['muted', 'loop', 'autoplay', 'playsinline', 'webkit-playsinline'].forEach(function (a) { media.setAttribute(a, ''); });
+        media.setAttribute('preload', 'auto'); media.setAttribute('poster', card.getAttribute('data-front'));
+        media.setAttribute('disablepictureinpicture', ''); media.setAttribute('aria-label', name + ' living reel');
+        media.src = reel;
+      } else {
+        media = document.createElement('img'); media.alt = name;
+        media.src = flipped ? card.getAttribute('data-back') : card.getAttribute('data-front');
+      }
+      media.className = 'fsv-media';
+      var close = document.createElement('button');
+      close.type = 'button'; close.className = 'icon-btn fsv-close'; close.setAttribute('aria-label', 'Close full screen'); close.textContent = '✕';
+      close.addEventListener('click', function (e) { e.stopPropagation(); closeFs(); });
+      var cap = document.createElement('p'); cap.className = 'fsv-cap';
+      cap.textContent = (reel ? 'Living reel · ' : '') + name;
+      o.appendChild(media); o.appendChild(close); o.appendChild(cap);
+      o.addEventListener('click', function (e) { if (e.target === o) closeFs(); });
+      document.body.appendChild(o); document.body.classList.add('fs-open'); fsv = o;
+      if (reel) { var pr = media.play(); if (pr && pr.catch) pr.catch(function () {}); }
+      var req = o.requestFullscreen || o.webkitRequestFullscreen;
+      if (req) { try { var r = req.call(o); if (r && r.catch) r.catch(function () {}); } catch (err) {} }
+      close.focus({ preventScroll: true });
+    }
+    function onFsChange() { if (fsv && !fsEl()) closeFs(); }
+    document.addEventListener('fullscreenchange', onFsChange);
+    document.addEventListener('webkitfullscreenchange', onFsChange);
+    on('[data-act=fs]', openFs);
     var dock = $('.dock');
     on('[data-act=details]', function () {
       var closed = dock.classList.toggle('closed'), b = $('[data-act=details]');
       b.setAttribute('aria-expanded', !closed); $('span', b).textContent = closed ? 'Show details' : 'Hide details'; setTimeout(fitDock, 320);
     });
     document.addEventListener('keydown', function (e) {
+      if (fsv) { if (e.key === 'Escape') closeFs(); return; }
       if (e.key === 'f') { flipped = !flipped; apply(); }
       if (e.key === 'Escape') { var lb = $('.lightbox'); if (lb) lb.remove(); }
     });

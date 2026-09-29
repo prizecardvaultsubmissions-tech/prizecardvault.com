@@ -2,7 +2,7 @@
 """Static site generator for prizecardvault.com (GitHub Pages).
 
   python3 build.py            -> regenerates HTML/CSS/JS into docs/
-Inputs: data/cards.json, data/image-dims.json, src/styles.css, src/app.js
+Inputs: data/cards.json, data/image-dims.json, data/reels.json, src/styles.css, src/app.js
 Card images already live in docs/cards (see tools/process_images.py).
 URLs: /c/{slug} is served from docs/c/{slug}.html (GitHub Pages resolves extensionless URLs),
 so NFC chips already written with https://prizecardvault.com/c/{slug} keep working.
@@ -15,7 +15,9 @@ SHOP = 'https://shop.prizecardvault.com'
 EMAIL = 'prizecardvaultsubmissions@gmail.com'
 data = json.load(open(ROOT / 'data/cards.json'))
 DIMS = json.load(open(ROOT / 'data/image-dims.json'))
-VIDEOS = set(DIMS.get('_videos', []))
+# living reels: slug -> {'src': '/videos/{slug}.mp4', ...} (tools/import_reels.py)
+REELS = {k: v for k, v in json.load(open(ROOT / 'data/reels.json'))['reels'].items()
+         if (DOCS / v['src'].lstrip('/')).is_file()}
 NFC_P, HOLO_P = data['pricing']['nfc'], data['pricing']['holo']
 cards = [c for c in data['cards'] if c.get('published', True)]
 sports = [c for c in cards if c['kind'] == 'sports']
@@ -192,7 +194,8 @@ def card_page(c):
     land = fw > fh
     ar = f'{fw}/{fh}'
     kicker = ' · '.join(x for x in (c['realm'], c['nameJa']) if x)
-    vid = f'<video src="/videos/{s}.mp4" muted loop playsinline preload="none" aria-hidden="true"></video>' if s in VIDEOS else ''
+    reel = REELS.get(s, {}).get('src', '')
+    vid = f'<video src="{reel}" muted loop playsinline preload="none" aria-hidden="true"></video>' if reel else ''
     reel_btn = f'<button type="button" class="btn" data-act="reel" aria-pressed="false">{icon("play")}Living reel</button>' if vid else ''
     kind_back = '/' if c['kind'] == 'sports' else '/games'
     viewtabs = stats_panel = ''
@@ -214,7 +217,7 @@ def card_page(c):
 {header(c['kind'], back=kind_back, clear=True)}
 <div class="stage" id="card-view">{vid}<div class="vignette"></div>
 {viewtabs}<div class="scene"><button type="button" class="hint" data-act="hint">Drag to turn · double-tap to bring forward</button>
-<div class="card3d{' landscape' if land else ''}" style="--ar:{ar}" data-front="/cards/{s}.jpg" data-back="{back}">
+<div class="card3d{' landscape' if land else ''}" style="--ar:{ar}" data-front="/cards/{s}.jpg" data-back="{back}" data-name="{e(c['name'])}">
 <div class="card-face front"><img src="/cards/{s}.jpg" alt="{e(c['name'])}" width="{fw}" height="{fh}" draggable="false"><span class="shine"></span></div>
 <div class="card-face back"><img src="{back}" alt="{e(c['name'])} — back" loading="lazy" draggable="false"></div>
 </div></div>
@@ -229,7 +232,7 @@ def card_page(c):
 <button type="button" class="btn" data-act="d2">{icon("layers")}2D</button>
 <button type="button" class="btn" data-act="flip">{icon("flip")}Flip</button>
 <button type="button" class="btn" data-act="reset">{icon("reset")}Reset</button>
-{reel_btn}<button type="button" class="btn" data-act="fs">{icon("max")}Full screen</button>
+{reel_btn}<button type="button" class="btn" data-act="fs" data-reel="{reel}" aria-haspopup="dialog" title="{'Play the living reel full screen' if reel else 'View the plate full screen'}">{icon("max")}Full screen</button>
 <a class="btn" href="/nfc#{s}">NFC</a>
 <a class="btn primary" href="{e(c['shopUrl'])}" rel="noopener">{icon("bag")}NFC {money(NFC_P)}</a>
 <a class="btn" href="{e(c['shopUrl'])}" rel="noopener">Holo {money(HOLO_P)}</a>
@@ -287,7 +290,8 @@ def main():
     urls = ['/', '/games', '/shop', '/nfc', '/reprint'] + [f'/c/{c["slug"]}' for c in cards]
     w('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
       ''.join(f'<url><loc>{SITE}{"" if u == "/" else u}</loc></url>\n' for u in urls) + '</urlset>\n')
-    print(f'built {5 + 1 + len(cards)} pages ({len(sports)} sports + {len(games)} game card pages)')
+    print(f'built {5 + 1 + len(cards)} pages ({len(sports)} sports + {len(games)} game card pages); '
+          f'{sum(1 for c in cards if c["slug"] in REELS)} cards with a living reel')
 
 if __name__ == '__main__':
     main()

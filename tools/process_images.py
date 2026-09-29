@@ -9,9 +9,7 @@ from PIL import Image, ImageOps
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / 'docs'
 SRC = pathlib.Path('/workspace/prize-cards/squarespace-import/images')
-VIDS = pathlib.Path('/workspace/prizecardvault/ad_assets')
 (DOCS / 'cards/thumbs').mkdir(parents=True, exist_ok=True)
-(DOCS / 'videos').mkdir(parents=True, exist_ok=True)
 
 def save_full(src, dst, maxside=1200):
     im = ImageOps.exif_transpose(Image.open(src)).convert('RGB')
@@ -40,14 +38,9 @@ if __name__ == '__main__':
         for slug, d in ex.map(job, [c['slug'] for c in cards], [c['hasBack'] for c in cards]):
             out[slug] = d
     out['_default_back'] = {'back': save_full(SRC / 'backs' / 'back.jpg', DOCS / 'cards' / 'back.jpg')}
-    # living reels available locally (old site: /videos/{slug}.mp4)
-    vids = []
-    for v in sorted(VIDS.glob('*.mp4')):
-        if any(c['slug'] == v.stem for c in cards):
-            shutil.copy2(v, DOCS / 'videos' / v.name); vids.append(v.stem)
-    out['_videos'] = vids
+    # living reels: see tools/import_reels.py -> docs/videos/{slug}.mp4 + data/reels.json
     shots = pathlib.Path('/workspace/prize-cards/video-build/shots')
     shutil.copy2(shots / 'vault-og.jpg', DOCS / 'og.jpg')
     shutil.copy2(shots / 'vault-banner.jpg', DOCS / 'x-banner.jpg')
     json.dump(out, open(ROOT / 'data/image-dims.json', 'w'), indent=0)
-    print(len(cards), 'cards;', len(vids), 'videos')
+    print(len(cards), 'cards')
