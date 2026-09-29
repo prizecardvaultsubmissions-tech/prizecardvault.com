@@ -1,6 +1,22 @@
 {
- "_note": "slug -> living reel (Grok Imagine video from the old site). Written by tools/import_reels.py; read by build.py.",
+ "_note": "slug -> living reel (Grok Imagine video). Old-site reels: tools/import_reels.py; new Imagine batches: tools/add_reels.py. Read by build.py.",
  "reels": {
+  "cosmic-stones": {
+   "src": "/videos/cosmic-stones.mp4",
+   "width": 960,
+   "height": 640,
+   "duration": 15.04,
+   "bytes": 2576802,
+   "from": "/workspace/reels-master/cosmic-stones.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1728,
+    "height": 1152,
+    "bytes": 28328276,
+    "file": "grok-video-87422c23-81ec-4b34-88b0-50bb67a310ab.mp4"
+   }
+  },
   "drake-maye": {
    "src": "/videos/drake-maye.mp4",
    "width": 720,
@@ -33,6 +49,38 @@
    "bytes": 1840732,
    "from": "/workspace/prizecardvault/ad_assets/erling-haaland-locker.mp4"
   },
+  "howie-roseman": {
+   "src": "/videos/howie-roseman.mp4",
+   "width": 720,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2800810,
+   "from": "/workspace/reels-master/howie-roseman.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 1248,
+    "height": 1664,
+    "bytes": 37058945,
+    "file": "grok-video-3544d9ee-c6e5-4669-a894-07be40175ca9 (1).mp4"
+   }
+  },
+  "jalen-carter": {
+   "src": "/videos/jalen-carter.mp4",
+   "width": 720,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 3188063,
+   "from": "/workspace/reels-master/jalen-carter.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1248,
+    "height": 1664,
+    "bytes": 37449291,
+    "file": "grok-video-7ba5e475-1c99-4f90-a00a-f9a073e27786.mp4"
+   }
+  },
   "jalen-hurts-film": {
    "src": "/videos/jalen-hurts-film.mp4",
    "width": 720,
@@ -56,6 +104,54 @@
    "duration": 6.04,
    "bytes": 2381885,
    "from": "/workspace/prizecardvault/ad_assets/jamarr-chase-nave.mp4"
+  },
+  "jaxon-dart": {
+   "src": "/videos/jaxon-dart.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2505909,
+   "from": "/workspace/reels-master/jaxon-dart.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 26614284,
+    "file": "grok-video-7cbf0b4e-d15d-4ffe-9ead-743b061c1e37.mp4"
+   }
+  },
+  "jayden-daniels": {
+   "src": "/videos/jayden-daniels.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2877568,
+   "from": "/workspace/reels-master/jayden-daniels.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 34792844,
+    "file": "grok-video-022e3cc8-6286-4e60-b019-ceb23d1bcfa4.mp4"
+   }
+  },
+  "jordan-mailata": {
+   "src": "/videos/jordan-mailata.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2841479,
+   "from": "/workspace/reels-master/jordan-mailata.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 26416803,
+    "file": "grok-video-8cfd66c3-3de9-4ed9-95db-5c8c0c11dd0e.mp4"
+   }
   },
   "josh-allen-oil": {
    "src": "/videos/josh-allen-oil.mp4",
@@ -81,6 +177,22 @@
    "bytes": 3523305,
    "from": "/workspace/kickstarter/video/cinematic/assets/native/lamar-jackson.mp4"
   },
+  "lane-johnson": {
+   "src": "/videos/lane-johnson.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2960108,
+   "from": "/workspace/reels-master/lane-johnson.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 32178312,
+    "file": "grok-video-e1bffb25-7cb7-4f00-a862-7c114223535b.mp4"
+   }
+  },
   "lionel-messi-nave": {
    "src": "/videos/lionel-messi-nave.mp4",
    "width": 720,
@@ -89,6 +201,118 @@
    "bytes": 2408847,
    "from": "/workspace/prizecardvault/ad_assets/lionel-messi-nave.mp4"
   },
+  "makai-lemon": {
+   "src": "/videos/makai-lemon.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2883445,
+   "from": "/workspace/reels-master/makai-lemon.mp4",
+   "source": "Grok Imagine",
+   "crf": 30.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 47002008,
+    "file": "grok-video-2e2fa07d-50ba-4007-87f1-d7b3198e86a7.mp4"
+   }
+  },
+  "makai-lemon-parallel": {
+   "src": "/videos/makai-lemon-parallel.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 3029260,
+   "from": "/workspace/reels-master/makai-lemon-parallel.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 38845785,
+    "file": "grok-video-b538711b-0a1f-4c74-afca-8aa25338dd68.mp4"
+   }
+  },
+  "nick-sirianni": {
+   "src": "/videos/nick-sirianni.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2904745,
+   "from": "/workspace/reels-master/nick-sirianni.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 32431509,
+    "file": "grok-video-ea1759e8-6f71-4d83-bfb6-4cd5501cf8cf.mp4"
+   }
+  },
+  "no-fly-zone": {
+   "src": "/videos/no-fly-zone.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 3169971,
+   "from": "/workspace/reels-master/no-fly-zone.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 26670334,
+    "file": "grok-video-99f84c62-70a1-4846-a0bb-1dbce836fc47.mp4"
+   }
+  },
+  "red-alert": {
+   "src": "/videos/red-alert.mp4",
+   "width": 960,
+   "height": 640,
+   "duration": 15.04,
+   "bytes": 2725051,
+   "from": "/workspace/reels-master/red-alert.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 1728,
+    "height": 1152,
+    "bytes": 22484850,
+    "file": "grok-video-735ee14d-c04f-4cbb-bf5c-8362d723f5f5.mp4"
+   }
+  },
+  "run-it-back": {
+   "src": "/videos/run-it-back.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2832102,
+   "from": "/workspace/reels-master/run-it-back.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 33835794,
+    "file": "grok-video-ac071bce-92f0-43ec-9505-6a2f0ad31a1c.mp4"
+   }
+  },
+  "sean-mannion": {
+   "src": "/videos/sean-mannion.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2720342,
+   "from": "/workspace/reels-master/sean-mannion.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 40748496,
+    "file": "grok-video-ecdfec96-09a6-4c31-9f9b-7ccc8269f922.mp4"
+   }
+  },
   "shohei-ohtani-locker": {
    "src": "/videos/shohei-ohtani-locker.mp4",
    "width": 720,
@@ -96,6 +320,22 @@
    "duration": 6.04,
    "bytes": 1905279,
    "from": "/workspace/prizecardvault/ad_assets/shohei-ohtani-locker.mp4"
+  },
+  "sixers-treasures": {
+   "src": "/videos/sixers-treasures.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2602212,
+   "from": "/workspace/reels-master/sixers-treasures.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 27865888,
+    "file": "grok-video-f0a8b8b4-4688-4e23-bc5a-a6ba67251077.mp4"
+   }
   },
   "trevor-lawrence-sunrise": {
    "src": "/videos/trevor-lawrence-sunrise.mp4",

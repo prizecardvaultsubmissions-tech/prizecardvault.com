@@ -8,7 +8,7 @@ Checkout stays on Squarespace: every Buy button goes to `https://shop.prizecardv
 - `docs/` — **the published site** (GitHub Pages → Deploy from branch `main`, folder `/docs`). Contains `CNAME` (prizecardvault.com), `404.html`, `.nojekyll`.
   - `/` sports gallery · `/games` game gallery · `/shop` (+ `?kind=game`) · `/nfc` · `/reprint` · `/c/{slug}` card pages (271)
   - `cards/{slug}.jpg`, `cards/{slug}-back.jpg`, `cards/back.jpg`, `cards/thumbs/{slug}.jpg|webp` — same paths as the old site
-  - `videos/{slug}.mp4` — living reels (real Grok Imagine videos from the old site; 14). Mapped in `data/reels.json` by `tools/import_reels.py`.
+  - `videos/{slug}.mp4` — living reels (real Grok Imagine videos). Mapped in `data/reels.json`: 14 old-site reels by `tools/import_reels.py`, new Imagine batches by `tools/add_reels.py`.
 - `data/cards.json` — catalog (271 cards; order, rarity, blurbs, shop URL). `data/image-dims.json` — image sizes. `data/reels.json` — slug → living reel.
 - `src/styles.css`, `src/app.js` — copied into `docs/assets/` by the build.
 - `build.py` — generates all HTML. `python3 build.py`
@@ -21,8 +21,21 @@ Checkout stays on Squarespace: every Buy button goes to `https://shop.prizecardv
 The card page **Full screen** button opens a full-screen player: cards with a reel (`data/reels.json`) play it muted,
 looping and `playsinline` (works on iPhone); cards without a reel show the plate image (current face) full screen.
 Uses element `requestFullscreen` where supported, otherwise a fixed full-viewport overlay (iPhone). ✕ / Esc closes.
-To add reels: put the real Grok Imagine MP4 in `tools/import_reels.py` SOURCES, run it, then `python3 build.py`.
 Never substitute pan/zoom (Ken Burns) videos made from stills.
+
+### Adding a batch of new Imagine reels
+Make a TSV of `slug<TAB>/path/to/grok-video-….mp4` (one per line, `#` comments ok) and run:
+
+    python3 tools/add_reels.py /workspace/pilot-reels/batchNN-files.tsv
+
+For each slug it archives the untouched original to `/workspace/reels-master/<slug>.mp4` (on the box only —
+**never commit originals**), encodes `docs/videos/<slug>.mp4` (H.264 High, no audio, long side 960 px, faststart,
+per-clip CRF 20–30 chosen to land at 2.5–3.2 MB, aiming 2.8 MB), checks it with ffprobe, merges it into
+`data/reels.json` and rebuilds. Existing web copies are skipped unless `--force`; `--dry-run` only checks the TSV.
+Budget: Pages publishes `docs/` (1 GB limit, and git history keeps every committed version), so ~2.8 MB × 271
+reels ≈ 0.9 GB with the rest of the site — keep the default size window and avoid needless `--force` re-encodes.
+The full-screen player uses `/cards/<slug>.jpg` as the poster and `object-fit: contain`, so landscape reels are
+letterboxed, never cropped. Then commit `docs/ data/ tools/`, `git pull --rebase` (the stats workflow commits daily), push.
 
 ## Why `c/{slug}.html`
 GitHub Pages serves `/c/drake-maye` from `c/drake-maye.html` without a redirect, so NFC chips already

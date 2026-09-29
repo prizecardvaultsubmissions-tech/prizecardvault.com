@@ -284,7 +284,7 @@ def main():
     for c in cards:
         w(f'c/{c["slug"]}.html', card_page(c))
     w('favicon.svg', FAVICON)
-    w('CNAME', 'prizecardvault.com\n')
+    w('CNAME', 'prizecardvault.com')  # same bytes as the file GitHub created (no newline)
     w('.nojekyll', '')
     w('robots.txt', f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n')
     urls = ['/', '/games', '/shop', '/nfc', '/reprint'] + [f'/c/{c["slug"]}' for c in cards]

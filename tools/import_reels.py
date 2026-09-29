@@ -41,7 +41,9 @@ def probe(p):
 def main():
     slugs = {c['slug'] for c in json.load(open(ROOT / 'data/cards.json'))['cards']}
     OUT.mkdir(parents=True, exist_ok=True)
-    reels = {}
+    # keep reels added by tools/add_reels.py (new Imagine batches); this script only owns SOURCES
+    old = json.load(open(ROOT / 'data/reels.json'))['reels'] if (ROOT / 'data/reels.json').exists() else {}
+    reels = {k: v for k, v in old.items() if k not in SOURCES and (OUT / f'{k}.mp4').exists()}
     for slug, src in sorted(SOURCES.items()):
         assert slug in slugs, f'unknown slug {slug}'
         dst = OUT / f'{slug}.mp4'
@@ -62,8 +64,9 @@ def main():
     for f in OUT.glob('*.mp4'):
         if f.stem not in reels:
             print('note: unmapped file in docs/videos:', f.name, file=sys.stderr)
-    json.dump({'_note': 'slug -> living reel (Grok Imagine video from the old site). Written by tools/import_reels.py; read by build.py.',
-               'reels': reels}, open(ROOT / 'data/reels.json', 'w'), indent=1)
+    json.dump({'_note': 'slug -> living reel (Grok Imagine video). Old-site reels: tools/import_reels.py; '
+                        'new Imagine batches: tools/add_reels.py. Read by build.py.',
+               'reels': dict(sorted(reels.items()))}, open(ROOT / 'data/reels.json', 'w'), indent=1)
     print(len(reels), 'reels ->', ROOT / 'data/reels.json')
 
 if __name__ == '__main__':
