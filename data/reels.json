@@ -1,6 +1,118 @@
 {
  "_note": "slug -> living reel (Grok Imagine video). Old-site reels: tools/import_reels.py; new Imagine batches: tools/add_reels.py. Read by build.py.",
  "reels": {
+  "amon-ra-st-brown": {
+   "src": "/videos/amon-ra-st-brown.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 3847479,
+   "from": "/workspace/reels-master/amon-ra-st-brown.mp4",
+   "source": "Grok Imagine",
+   "crf": 30.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 49241047,
+    "file": "grok-video-78d0c609-16f2-4969-a02f-58d90df85723.mp4"
+   }
+  },
+  "bo-nix-cool-hand": {
+   "src": "/videos/bo-nix-cool-hand.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 3124694,
+   "from": "/workspace/reels-master/bo-nix-cool-hand.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 35628098,
+    "file": "grok-video-0b547e2b-229d-4740-b1c5-93e8cc2ca21a.mp4"
+   }
+  },
+  "bo-nix-orange-lightning": {
+   "src": "/videos/bo-nix-orange-lightning.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2502505,
+   "from": "/workspace/reels-master/bo-nix-orange-lightning.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 25902589,
+    "file": "grok-video-abf69b48-fe68-467f-822a-80d7fa7db29c.mp4"
+   }
+  },
+  "brock-purdy": {
+   "src": "/videos/brock-purdy.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2858816,
+   "from": "/workspace/reels-master/brock-purdy.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 40825751,
+    "file": "grok-video-e0896a3d-8047-4162-895b-5be233c552c7.mp4"
+   }
+  },
+  "caleb-williams-franchise": {
+   "src": "/videos/caleb-williams-franchise.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2804810,
+   "from": "/workspace/reels-master/caleb-williams-franchise.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 29504123,
+    "file": "grok-video-f9e022d4-6256-42c8-a00e-2962f5eb2524.mp4"
+   }
+  },
+  "caleb-williams-showtime": {
+   "src": "/videos/caleb-williams-showtime.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2697622,
+   "from": "/workspace/reels-master/caleb-williams-showtime.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 40771104,
+    "file": "grok-video-6e569ad7-f0fa-40b9-be57-faf7563153d7.mp4"
+   }
+  },
+  "cooper-dejean": {
+   "src": "/videos/cooper-dejean.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2865986,
+   "from": "/workspace/reels-master/cooper-dejean.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 30601074,
+    "file": "grok-video-820b7c0f-efa1-48dd-a7cc-b51296b80e7a.mp4"
+   }
+  },
   "cosmic-stones": {
    "src": "/videos/cosmic-stones.mp4",
    "width": 960,
@@ -15,6 +127,22 @@
     "height": 1152,
     "bytes": 28328276,
     "file": "grok-video-87422c23-81ec-4b34-88b0-50bb67a310ab.mp4"
+   }
+  },
+  "dontayvion-wicks": {
+   "src": "/videos/dontayvion-wicks.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2920332,
+   "from": "/workspace/reels-master/dontayvion-wicks.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 36177135,
+    "file": "grok-video-a442b452-d5e8-4e19-a37a-85e8a0c4dfbe.mp4"
    }
   },
   "drake-maye": {
@@ -65,6 +193,22 @@
     "file": "grok-video-3544d9ee-c6e5-4669-a894-07be40175ca9 (1).mp4"
    }
   },
+  "isaiah-likely": {
+   "src": "/videos/isaiah-likely.mp4",
+   "width": 960,
+   "height": 720,
+   "duration": 15.04,
+   "bytes": 2756072,
+   "from": "/workspace/reels-master/isaiah-likely.mp4",
+   "source": "Grok Imagine",
+   "crf": 29.0,
+   "master": {
+    "width": 1664,
+    "height": 1248,
+    "bytes": 40304906,
+    "file": "grok-video-027cc8ed-5e1b-416f-a54d-f821ab8dac3c.mp4"
+   }
+  },
   "jalen-carter": {
    "src": "/videos/jalen-carter.mp4",
    "width": 720,
@@ -79,6 +223,38 @@
     "height": 1664,
     "bytes": 37449291,
     "file": "grok-video-7ba5e475-1c99-4f90-a00a-f9a073e27786.mp4"
+   }
+  },
+  "jalen-hurts": {
+   "src": "/videos/jalen-hurts.mp4",
+   "width": 720,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2786300,
+   "from": "/workspace/reels-master/jalen-hurts.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1248,
+    "height": 1664,
+    "bytes": 30119799,
+    "file": "grok-video-9543bb44-f16d-4013-9bab-59dba5860d15.mp4"
+   }
+  },
+  "jalen-hurts-buried": {
+   "src": "/videos/jalen-hurts-buried.mp4",
+   "width": 720,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2818821,
+   "from": "/workspace/reels-master/jalen-hurts-buried.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 1248,
+    "height": 1664,
+    "bytes": 32937418,
+    "file": "grok-video-58cd423c-7d76-4267-9e81-80c3d594ceb6.mp4"
    }
   },
   "jalen-hurts-film": {
@@ -96,6 +272,54 @@
    "duration": 6.04,
    "bytes": 4346746,
    "from": "/workspace/kickstarter/video/cinematic/assets/native/jalen-hurts-phoenix.mp4"
+  },
+  "jalen-hurts-select": {
+   "src": "/videos/jalen-hurts-select.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2813991,
+   "from": "/workspace/reels-master/jalen-hurts-select.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 35666775,
+    "file": "grok-video-a363270e-614a-4b90-b980-77c5f458a0a2.mp4"
+   }
+  },
+  "jalen-hurts-underrated": {
+   "src": "/videos/jalen-hurts-underrated.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2688780,
+   "from": "/workspace/reels-master/jalen-hurts-underrated.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 41909339,
+    "file": "grok-video-fc39cf3b-3aec-4df7-a791-35dc4137ab03.mp4"
+   }
+  },
+  "jalen-hurts-underrated-v2": {
+   "src": "/videos/jalen-hurts-underrated-v2.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2790999,
+   "from": "/workspace/reels-master/jalen-hurts-underrated-v2.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 43143638,
+    "file": "grok-video-ce92e4fc-832f-4329-af05-73ca07605501.mp4"
+   }
   },
   "jamarr-chase-nave": {
    "src": "/videos/jamarr-chase-nave.mp4",
@@ -137,6 +361,22 @@
     "file": "grok-video-022e3cc8-6286-4e60-b019-ceb23d1bcfa4.mp4"
    }
   },
+  "jordan-davis": {
+   "src": "/videos/jordan-davis.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2666056,
+   "from": "/workspace/reels-master/jordan-davis.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 45198993,
+    "file": "grok-video-ecdd9fdf-5c45-489d-a5e8-c37cacff5c36.mp4"
+   }
+  },
   "jordan-mailata": {
    "src": "/videos/jordan-mailata.mp4",
    "width": 640,
@@ -151,6 +391,22 @@
     "height": 1728,
     "bytes": 26416803,
     "file": "grok-video-8cfd66c3-3de9-4ed9-95db-5c8c0c11dd0e.mp4"
+   }
+  },
+  "josh-allen-highmark-king": {
+   "src": "/videos/josh-allen-highmark-king.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2757211,
+   "from": "/workspace/reels-master/josh-allen-highmark-king.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 28601967,
+    "file": "grok-video-c23109a6-7397-466c-81d3-3a6d24011ae0.mp4"
    }
   },
   "josh-allen-oil": {
@@ -233,6 +489,22 @@
     "file": "grok-video-b538711b-0a1f-4c74-afca-8aa25338dd68.mp4"
    }
   },
+  "myles-garrett": {
+   "src": "/videos/myles-garrett.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2930385,
+   "from": "/workspace/reels-master/myles-garrett.mp4",
+   "source": "Grok Imagine",
+   "crf": 30.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 52417421,
+    "file": "grok-video-66d9ff77-8948-4937-b74b-40c1438a20c6.mp4"
+   }
+  },
   "nick-sirianni": {
    "src": "/videos/nick-sirianni.mp4",
    "width": 640,
@@ -279,6 +551,22 @@
     "height": 1152,
     "bytes": 22484850,
     "file": "grok-video-735ee14d-c04f-4cbb-bf5c-8362d723f5f5.mp4"
+   }
+  },
+  "riq-woolen": {
+   "src": "/videos/riq-woolen.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 3068322,
+   "from": "/workspace/reels-master/riq-woolen.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 31861144,
+    "file": "grok-video-12814028-aa03-468f-9fda-79ad90d2b61c.mp4"
    }
   },
   "run-it-back": {
@@ -337,6 +625,54 @@
     "file": "grok-video-f0a8b8b4-4688-4e23-bc5a-a6ba67251077.mp4"
    }
   },
+  "slim-reaper-action": {
+   "src": "/videos/slim-reaper-action.mp4",
+   "width": 960,
+   "height": 640,
+   "duration": 15.04,
+   "bytes": 2728147,
+   "from": "/workspace/reels-master/slim-reaper-action.mp4",
+   "source": "Grok Imagine",
+   "crf": 29.0,
+   "master": {
+    "width": 1728,
+    "height": 1152,
+    "bytes": 49854809,
+    "file": "grok-video-66988b5f-10bb-4a87-aad2-1a6db83128d4.mp4"
+   }
+  },
+  "slim-reaper-classic": {
+   "src": "/videos/slim-reaper-classic.mp4",
+   "width": 960,
+   "height": 640,
+   "duration": 15.04,
+   "bytes": 2749516,
+   "from": "/workspace/reels-master/slim-reaper-classic.mp4",
+   "source": "Grok Imagine",
+   "crf": 30.0,
+   "master": {
+    "width": 1728,
+    "height": 1152,
+    "bytes": 51574317,
+    "file": "grok-video-2e136614-47d9-4920-8dd9-3fe8904e6358.mp4"
+   }
+  },
+  "slim-reaper-yokai": {
+   "src": "/videos/slim-reaper-yokai.mp4",
+   "width": 960,
+   "height": 640,
+   "duration": 15.04,
+   "bytes": 2753581,
+   "from": "/workspace/reels-master/slim-reaper-yokai.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 1728,
+    "height": 1152,
+    "bytes": 44342705,
+    "file": "grok-video-497ed95b-b22f-44cb-90d1-a5a607d45dae.mp4"
+   }
+  },
   "trevor-lawrence-sunrise": {
    "src": "/videos/trevor-lawrence-sunrise.mp4",
    "width": 720,
@@ -344,6 +680,70 @@
    "duration": 10.04,
    "bytes": 2353342,
    "from": "/workspace/kickstarter/video/cinematic/assets/native/trevor-lawrence-sunrise.mp4"
+  },
+  "trevor-lawrence-tall-order": {
+   "src": "/videos/trevor-lawrence-tall-order.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2781530,
+   "from": "/workspace/reels-master/trevor-lawrence-tall-order.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 32609069,
+    "file": "grok-video-62d89746-9281-4a6c-9aee-91df13543955.mp4"
+   }
+  },
+  "tyler-shough-saints-rise": {
+   "src": "/videos/tyler-shough-saints-rise.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2848591,
+   "from": "/workspace/reels-master/tyler-shough-saints-rise.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 35228657,
+    "file": "grok-video-6f25673e-0b43-477d-9085-e9d3c7ccdc4a.mp4"
+   }
+  },
+  "tyler-shough-second-wave": {
+   "src": "/videos/tyler-shough-second-wave.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 2596829,
+   "from": "/workspace/reels-master/tyler-shough-second-wave.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 32754597,
+    "file": "grok-video-d42cb069-bfa1-4019-a9f8-b035634d013b.mp4"
+   }
+  },
+  "uar-bernard": {
+   "src": "/videos/uar-bernard.mp4",
+   "width": 640,
+   "height": 960,
+   "duration": 15.04,
+   "bytes": 3145361,
+   "from": "/workspace/reels-master/uar-bernard.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 1152,
+    "height": 1728,
+    "bytes": 42029608,
+    "file": "grok-video-08227910-0acd-478f-bc58-e1f5ad9ab7fc.mp4"
+   }
   },
   "vj-edgecombe-nave": {
    "src": "/videos/vj-edgecombe-nave.mp4",
