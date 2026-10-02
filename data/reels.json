@@ -481,6 +481,22 @@
     "file": "derrick-henry.mp4"
    }
   },
+  "derrick-henry-crystal": {
+   "src": "/videos/derrick-henry-crystal.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2963317,
+   "from": "/workspace/reels-master/derrick-henry-crystal.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12405957,
+    "file": "derrick-henry-crystal.mp4"
+   }
+  },
   "derrick-henry-draugr-king": {
    "src": "/videos/derrick-henry-draugr-king.mp4",
    "width": 686,
@@ -2041,6 +2057,22 @@
     "file": "grok-video-99f84c62-70a1-4846-a0bb-1dbce836fc47.mp4"
    }
   },
+  "patrick-mahomes": {
+   "src": "/videos/patrick-mahomes.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3140565,
+   "from": "/workspace/reels-master/patrick-mahomes.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 17267748,
+    "file": "patrick-mahomes.mp4"
+   }
+  },
   "patrick-mahomes-freddy": {
    "src": "/videos/patrick-mahomes-freddy.mp4",
    "width": 686,
@@ -2433,6 +2465,22 @@
     "file": "travis-kelce-crystal.mp4"
    }
   },
+  "travis-kelce-locker": {
+   "src": "/videos/travis-kelce-locker.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3167245,
+   "from": "/workspace/reels-master/travis-kelce-locker.mp4",
+   "source": "Grok Imagine",
+   "crf": 22.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10381633,
+    "file": "travis-kelce-locker.mp4"
+   }
+  },
   "travis-kelce-snow": {
    "src": "/videos/travis-kelce-snow.mp4",
    "width": 686,
@@ -2647,6 +2695,22 @@
     "height": 1120,
     "bytes": 10527056,
     "file": "vic-fangio-sideline.mp4"
+   }
+  },
+  "vic-fangio-tunnel": {
+   "src": "/videos/vic-fangio-tunnel.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2792420,
+   "from": "/workspace/reels-master/vic-fangio-tunnel.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 17109363,
+    "file": "vic-fangio-tunnel.mp4"
    }
   },
   "victor-wembanyama-living-statue": {
