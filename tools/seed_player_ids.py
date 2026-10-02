@@ -42,13 +42,16 @@ for n in ('A.J. Brown|Amon-Ra St. Brown|Bo Nix|Bobby Wagner|Brock Purdy|Caleb Wi
           'Jayden Daniels|Joe Burrow|Jordan Davis|Jordan Mailata|Josh Allen|Khalil Shakir|Lamar Jackson|Lane Johnson|'
           'Luke McCaffrey|Makai Lemon|Malik Nabers|Matthew Stafford|Micah Parsons|Myles Garrett|Patrick Mahomes|'
           'Patrick Surtain II|Quinyon Mitchell|Riq Woolen|Sam Darnold|Saquon Barkley|Shedeur Sanders|Tank Bigsby|'
-          'Travis Kelce|Trevor Lawrence|Tutu Atwell|Ty Simpson|Tyler Shough|Uar Bernard|Will Anderson Jr.|DeVonta Smith').split('|'):
+          'Travis Kelce|Trevor Lawrence|Tutu Atwell|Ty Simpson|Tyler Shough|Uar Bernard|Will Anderson Jr.|DeVonta Smith|'
+          'Aidan Hutchinson|Baker Mayfield|Jahmyr Gibbs|Justin Jefferson|T.J. Watt|Travis Hunter|Zack Baun').split('|'):
     LEAGUE[n] = 'nfl'
-for n in ('Jayson Tatum', 'LeBron James', 'Stephen Curry', 'Tyrese Maxey', 'VJ Edgecombe', 'Victor Wembanyama'):
+for n in ('Jayson Tatum', 'LeBron James', 'Stephen Curry', 'Tyrese Maxey', 'VJ Edgecombe', 'Victor Wembanyama',
+          'Ja Morant', 'Jimmy Butler', 'Joel Embiid', 'Kevin Durant', 'Nikola Jokic'):
     LEAGUE[n] = 'nba'
-for n in ('Olivia Miles', 'Paige Bueckers', 'Sophie Cunningham'):
+for n in ('Caitlin Clark', 'Olivia Miles', 'Paige Bueckers', 'Sophie Cunningham'):
     LEAGUE[n] = 'wnba'
-for n in ('Bryce Harper', 'Kyle Schwarber', 'Mike Trout', 'Rhys Hoskins', 'Shohei Ohtani', 'Yoshinobu Yamamoto'):
+for n in ('Bryce Harper', 'Kyle Schwarber', 'Mike Trout', 'Rhys Hoskins', 'Shohei Ohtani', 'Yoshinobu Yamamoto',
+          'Aaron Nola', 'Gunnar Henderson', 'Juan Soto', 'Mookie Betts', 'Zack Wheeler'):
     LEAGUE[n] = 'mlb'
 # Disambiguation for common names: only accepted if team + position + jersey all match exactly one
 # candidate (jersey numbers come from the card blurbs). Never used to pick between look-alikes otherwise.
@@ -57,6 +60,7 @@ HINTS = {
     'Lamar Jackson': {'team': 'BAL', 'position': 'QB', 'jersey': '8'},
     'Jordan Davis': {'team': 'PHI', 'position': 'DT', 'jersey': '90'},
     'DeVonta Smith': {'team': 'PHI', 'position': 'WR', 'jersey': '6'},
+    'Justin Jefferson': {'team': 'MIN', 'position': 'WR', 'jersey': '18'},   # ESPN also has a 2026 CLE LB of the same name
 }
 SEARCH_AS = {'Patrick Surtain II': 'Pat Surtain II'}   # ESPN's listed name
 SOCCER = {'Lionel Messi': ['esp.1', 'fra.1', 'usa.1'], 'Erling Haaland': ['aut.1', 'ger.1', 'eng.1']}

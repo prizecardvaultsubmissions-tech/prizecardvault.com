@@ -1,6 +1,38 @@
 {
  "_note": "slug -> living reel (Grok Imagine video). Old-site reels: tools/import_reels.py; new Imagine batches: tools/add_reels.py. Read by build.py.",
  "reels": {
+  "aaron-nola-plague-doctor": {
+   "src": "/videos/aaron-nola-plague-doctor.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3079677,
+   "from": "/workspace/reels-master/aaron-nola-plague-doctor.mp4",
+   "source": "Grok Imagine",
+   "crf": 21.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 8325435,
+    "file": "aaron-nola-plague-doctor.mp4"
+   }
+  },
+  "aidan-hutchinson-frost-berserker": {
+   "src": "/videos/aidan-hutchinson-frost-berserker.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2821196,
+   "from": "/workspace/reels-master/aidan-hutchinson-frost-berserker.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12334943,
+    "file": "aidan-hutchinson-frost-berserker.mp4"
+   }
+  },
   "aj-brown": {
    "src": "/videos/aj-brown.mp4",
    "width": 686,
@@ -33,6 +65,38 @@
     "file": "grok-video-78d0c609-16f2-4969-a02f-58d90df85723.mp4"
    }
   },
+  "amon-ra-st-brown-sand-crypt": {
+   "src": "/videos/amon-ra-st-brown-sand-crypt.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2698205,
+   "from": "/workspace/reels-master/amon-ra-st-brown-sand-crypt.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 15996269,
+    "file": "amon-ra-st-brown-sand-crypt.mp4"
+   }
+  },
+  "baker-mayfield-jester-demon": {
+   "src": "/videos/baker-mayfield-jester-demon.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3066486,
+   "from": "/workspace/reels-master/baker-mayfield-jester-demon.mp4",
+   "source": "Grok Imagine",
+   "crf": 22.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 8886877,
+    "file": "baker-mayfield-jester-demon.mp4"
+   }
+  },
   "bo-nix-cool-hand": {
    "src": "/videos/bo-nix-cool-hand.mp4",
    "width": 640,
@@ -47,6 +111,22 @@
     "height": 1728,
     "bytes": 35628098,
     "file": "grok-video-0b547e2b-229d-4740-b1c5-93e8cc2ca21a.mp4"
+   }
+  },
+  "bo-nix-ghost-town": {
+   "src": "/videos/bo-nix-ghost-town.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2674905,
+   "from": "/workspace/reels-master/bo-nix-ghost-town.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 17806231,
+    "file": "bo-nix-ghost-town.mp4"
    }
   },
   "bo-nix-orange-lightning": {
@@ -113,6 +193,54 @@
     "file": "grok-video-e0896a3d-8047-4162-895b-5be233c552c7.mp4"
    }
   },
+  "brock-purdy-gilded-automaton": {
+   "src": "/videos/brock-purdy-gilded-automaton.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2881022,
+   "from": "/workspace/reels-master/brock-purdy-gilded-automaton.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12286565,
+    "file": "brock-purdy-gilded-automaton.mp4"
+   }
+  },
+  "caitlin-clark-carrie": {
+   "src": "/videos/caitlin-clark-carrie.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2814150,
+   "from": "/workspace/reels-master/caitlin-clark-carrie.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11963780,
+    "file": "caitlin-clark-carrie.mp4"
+   }
+  },
+  "caitlin-clark-frost-oracle": {
+   "src": "/videos/caitlin-clark-frost-oracle.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2604310,
+   "from": "/workspace/reels-master/caitlin-clark-frost-oracle.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 18689006,
+    "file": "caitlin-clark-frost-oracle.mp4"
+   }
+  },
   "caleb-williams-franchise": {
    "src": "/videos/caleb-williams-franchise.mp4",
    "width": 640,
@@ -127,6 +255,38 @@
     "height": 1728,
     "bytes": 29504123,
     "file": "grok-video-f9e022d4-6256-42c8-a00e-2962f5eb2524.mp4"
+   }
+  },
+  "caleb-williams-invisible-man": {
+   "src": "/videos/caleb-williams-invisible-man.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2914831,
+   "from": "/workspace/reels-master/caleb-williams-invisible-man.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10358886,
+    "file": "caleb-williams-invisible-man.mp4"
+   }
+  },
+  "caleb-williams-mirror-hall": {
+   "src": "/videos/caleb-williams-mirror-hall.mp4",
+   "width": 676,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2708118,
+   "from": "/workspace/reels-master/caleb-williams-mirror-hall.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1136,
+    "bytes": 15107323,
+    "file": "caleb-williams-mirror-hall.mp4"
    }
   },
   "caleb-williams-showtime": {
@@ -225,6 +385,22 @@
     "file": "christian-mccaffrey-dive.mp4"
    }
   },
+  "christian-mccaffrey-fog-city": {
+   "src": "/videos/christian-mccaffrey-fog-city.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2738988,
+   "from": "/workspace/reels-master/christian-mccaffrey-fog-city.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 19146521,
+    "file": "christian-mccaffrey-fog-city.mp4"
+   }
+  },
   "cooper-dejean": {
    "src": "/videos/cooper-dejean.mp4",
    "width": 640,
@@ -305,6 +481,38 @@
     "file": "derrick-henry.mp4"
    }
   },
+  "derrick-henry-draugr-king": {
+   "src": "/videos/derrick-henry-draugr-king.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2898249,
+   "from": "/workspace/reels-master/derrick-henry-draugr-king.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13062710,
+    "file": "derrick-henry-draugr-king.mp4"
+   }
+  },
+  "devonta-smith-curtain-house": {
+   "src": "/videos/devonta-smith-curtain-house.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2921190,
+   "from": "/workspace/reels-master/devonta-smith-curtain-house.mp4",
+   "source": "Grok Imagine",
+   "crf": 22.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10355713,
+    "file": "devonta-smith-curtain-house.mp4"
+   }
+  },
   "dontayvion-wicks": {
    "src": "/videos/dontayvion-wicks.mp4",
    "width": 640,
@@ -343,6 +551,22 @@
     "height": 1120,
     "bytes": 8658748,
     "file": "drake-maye-crusade.mp4"
+   }
+  },
+  "drake-maye-fog-revenant": {
+   "src": "/videos/drake-maye-fog-revenant.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3129922,
+   "from": "/workspace/reels-master/drake-maye-fog-revenant.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11790541,
+    "file": "drake-maye-fog-revenant.mp4"
    }
   },
   "drake-maye-nave": {
@@ -417,6 +641,22 @@
     "file": "frankie-luvu.mp4"
    }
   },
+  "gunnar-henderson-crow-baron": {
+   "src": "/videos/gunnar-henderson-crow-baron.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2937439,
+   "from": "/workspace/reels-master/gunnar-henderson-crow-baron.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 9959533,
+    "file": "gunnar-henderson-crow-baron.mp4"
+   }
+  },
   "howie-roseman": {
    "src": "/videos/howie-roseman.mp4",
    "width": 720,
@@ -449,6 +689,38 @@
     "file": "grok-video-027cc8ed-5e1b-416f-a54d-f821ab8dac3c.mp4"
    }
   },
+  "ja-morant-sky-serpent": {
+   "src": "/videos/ja-morant-sky-serpent.mp4",
+   "width": 676,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2534870,
+   "from": "/workspace/reels-master/ja-morant-sky-serpent.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1136,
+    "bytes": 14024483,
+    "file": "ja-morant-sky-serpent.mp4"
+   }
+  },
+  "jahmyr-gibbs-mirror-wraith": {
+   "src": "/videos/jahmyr-gibbs-mirror-wraith.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2781652,
+   "from": "/workspace/reels-master/jahmyr-gibbs-mirror-wraith.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13427405,
+    "file": "jahmyr-gibbs-mirror-wraith.mp4"
+   }
+  },
   "jalen-carter": {
    "src": "/videos/jalen-carter.mp4",
    "width": 720,
@@ -463,6 +735,22 @@
     "height": 1664,
     "bytes": 37449291,
     "file": "grok-video-7ba5e475-1c99-4f90-a00a-f9a073e27786.mp4"
+   }
+  },
+  "jalen-carter-asylum-door": {
+   "src": "/videos/jalen-carter-asylum-door.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2868116,
+   "from": "/workspace/reels-master/jalen-carter-asylum-door.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13307758,
+    "file": "jalen-carter-asylum-door.mp4"
    }
   },
   "jalen-hurts": {
@@ -513,6 +801,22 @@
     "file": "grok-video-58cd423c-7d76-4267-9e81-80c3d594ceb6.mp4"
    }
   },
+  "jalen-hurts-cave-puppet": {
+   "src": "/videos/jalen-hurts-cave-puppet.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3116420,
+   "from": "/workspace/reels-master/jalen-hurts-cave-puppet.mp4",
+   "source": "Grok Imagine",
+   "crf": 22.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10347409,
+    "file": "jalen-hurts-cave-puppet.mp4"
+   }
+  },
   "jalen-hurts-chrome": {
    "src": "/videos/jalen-hurts-chrome.mp4",
    "width": 640,
@@ -527,6 +831,22 @@
     "height": 1728,
     "bytes": 27891068,
     "file": "grok-video-b7cce8dc-688a-461f-9341-d5ed785655d4.mp4"
+   }
+  },
+  "jalen-hurts-dracula": {
+   "src": "/videos/jalen-hurts-dracula.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2858250,
+   "from": "/workspace/reels-master/jalen-hurts-dracula.mp4",
+   "source": "Grok Imagine",
+   "crf": 21.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 7184978,
+    "file": "jalen-hurts-dracula.mp4"
    }
   },
   "jalen-hurts-film": {
@@ -567,6 +887,22 @@
     "height": 1184,
     "bytes": 5729444,
     "file": "jalen-hurts-kings.mp4"
+   }
+  },
+  "jalen-hurts-mummy": {
+   "src": "/videos/jalen-hurts-mummy.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2889090,
+   "from": "/workspace/reels-master/jalen-hurts-mummy.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12298158,
+    "file": "jalen-hurts-mummy.mp4"
    }
   },
   "jalen-hurts-phoenix": {
@@ -711,6 +1047,22 @@
     "height": 1728,
     "bytes": 26614284,
     "file": "grok-video-7cbf0b4e-d15d-4ffe-9ead-743b061c1e37.mp4"
+   }
+  },
+  "jaxson-dart-nosferatu": {
+   "src": "/videos/jaxson-dart-nosferatu.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2916073,
+   "from": "/workspace/reels-master/jaxson-dart-nosferatu.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 9642856,
+    "file": "jaxson-dart-nosferatu.mp4"
    }
   },
   "jayden-daniels": {
@@ -921,6 +1273,38 @@
     "file": "jayden-daniels-locker.mp4"
    }
   },
+  "jayden-daniels-mothman": {
+   "src": "/videos/jayden-daniels-mothman.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2626498,
+   "from": "/workspace/reels-master/jayden-daniels-mothman.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 14100329,
+    "file": "jayden-daniels-mothman.mp4"
+   }
+  },
+  "jayden-daniels-myers": {
+   "src": "/videos/jayden-daniels-myers.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3173126,
+   "from": "/workspace/reels-master/jayden-daniels-myers.mp4",
+   "source": "Grok Imagine",
+   "crf": 22.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 8935275,
+    "file": "jayden-daniels-myers.mp4"
+   }
+  },
   "jayden-daniels-night": {
    "src": "/videos/jayden-daniels-night.mp4",
    "width": 686,
@@ -1049,6 +1433,22 @@
     "file": "jayden-daniels-vortex.mp4"
    }
   },
+  "jimmy-butler-iron-vampire": {
+   "src": "/videos/jimmy-butler-iron-vampire.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2951700,
+   "from": "/workspace/reels-master/jimmy-butler-iron-vampire.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 9802260,
+    "file": "jimmy-butler-iron-vampire.mp4"
+   }
+  },
   "joe-burrow": {
    "src": "/videos/joe-burrow.mp4",
    "width": 960,
@@ -1063,6 +1463,38 @@
     "height": 1248,
     "bytes": 44856811,
     "file": "grok-video-6bdefbbb-6d99-40b0-940f-3154cc2056a8.mp4"
+   }
+  },
+  "joe-burrow-gator-king": {
+   "src": "/videos/joe-burrow-gator-king.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2532505,
+   "from": "/workspace/reels-master/joe-burrow-gator-king.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13679391,
+    "file": "joe-burrow-gator-king.mp4"
+   }
+  },
+  "joel-embiid-cyclops": {
+   "src": "/videos/joel-embiid-cyclops.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2918570,
+   "from": "/workspace/reels-master/joel-embiid-cyclops.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11066294,
+    "file": "joel-embiid-cyclops.mp4"
    }
   },
   "jordan-davis": {
@@ -1113,6 +1545,38 @@
     "file": "jordan-mailata-aloha.mp4"
    }
   },
+  "jordan-mailata-farmhouse": {
+   "src": "/videos/jordan-mailata-farmhouse.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2685517,
+   "from": "/workspace/reels-master/jordan-mailata-farmhouse.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 17028213,
+    "file": "jordan-mailata-farmhouse.mp4"
+   }
+  },
+  "josh-allen-gargoyle": {
+   "src": "/videos/josh-allen-gargoyle.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3024566,
+   "from": "/workspace/reels-master/josh-allen-gargoyle.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 14875459,
+    "file": "josh-allen-gargoyle.mp4"
+   }
+  },
   "josh-allen-highmark-king": {
    "src": "/videos/josh-allen-highmark-king.mp4",
    "width": 640,
@@ -1127,6 +1591,22 @@
     "height": 1728,
     "bytes": 28601967,
     "file": "grok-video-c23109a6-7397-466c-81d3-3a6d24011ae0.mp4"
+   }
+  },
+  "josh-allen-hollow-ride": {
+   "src": "/videos/josh-allen-hollow-ride.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2767393,
+   "from": "/workspace/reels-master/josh-allen-hollow-ride.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 16267775,
+    "file": "josh-allen-hollow-ride.mp4"
    }
   },
   "josh-allen-oil": {
@@ -1145,6 +1625,54 @@
    "bytes": 5642793,
    "from": "/workspace/kickstarter/video/cinematic/assets/native/josh-allen-unstoppable.mp4"
   },
+  "juan-soto-chupacabra": {
+   "src": "/videos/juan-soto-chupacabra.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2936812,
+   "from": "/workspace/reels-master/juan-soto-chupacabra.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 9852635,
+    "file": "juan-soto-chupacabra.mp4"
+   }
+  },
+  "justin-jefferson-candy-vault": {
+   "src": "/videos/justin-jefferson-candy-vault.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2731695,
+   "from": "/workspace/reels-master/justin-jefferson-candy-vault.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11777542,
+    "file": "justin-jefferson-candy-vault.mp4"
+   }
+  },
+  "kevin-durant-longshadow": {
+   "src": "/videos/kevin-durant-longshadow.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2800738,
+   "from": "/workspace/reels-master/kevin-durant-longshadow.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 9197809,
+    "file": "kevin-durant-longshadow.mp4"
+   }
+  },
   "khalil-shakir": {
    "src": "/videos/khalil-shakir.mp4",
    "width": 686,
@@ -1161,6 +1689,22 @@
     "file": "khalil-shakir.mp4"
    }
   },
+  "kyle-schwarber-werewolf": {
+   "src": "/videos/kyle-schwarber-werewolf.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2878195,
+   "from": "/workspace/reels-master/kyle-schwarber-werewolf.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13400352,
+    "file": "kyle-schwarber-werewolf.mp4"
+   }
+  },
   "lamar-jackson": {
    "src": "/videos/lamar-jackson.mp4",
    "width": 720,
@@ -1168,6 +1712,22 @@
    "duration": 10.04,
    "bytes": 3523305,
    "from": "/workspace/kickstarter/video/cinematic/assets/native/lamar-jackson.mp4"
+  },
+  "lamar-jackson-raven-wraith": {
+   "src": "/videos/lamar-jackson-raven-wraith.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3014414,
+   "from": "/workspace/reels-master/lamar-jackson-raven-wraith.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10366358,
+    "file": "lamar-jackson-raven-wraith.mp4"
+   }
   },
   "lane-johnson": {
    "src": "/videos/lane-johnson.mp4",
@@ -1199,6 +1759,38 @@
     "height": 1120,
     "bytes": 19417103,
     "file": "lebron-james.mp4"
+   }
+  },
+  "lebron-james-frankenstein": {
+   "src": "/videos/lebron-james-frankenstein.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2800288,
+   "from": "/workspace/reels-master/lebron-james-frankenstein.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12874518,
+    "file": "lebron-james-frankenstein.mp4"
+   }
+  },
+  "lebron-james-midnight-sovereign": {
+   "src": "/videos/lebron-james-midnight-sovereign.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2889422,
+   "from": "/workspace/reels-master/lebron-james-midnight-sovereign.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 15207845,
+    "file": "lebron-james-midnight-sovereign.mp4"
    }
   },
   "lionel-messi-nave": {
@@ -1321,6 +1913,22 @@
     "file": "mind-tricks.mp4"
    }
   },
+  "mookie-betts-werejaguar": {
+   "src": "/videos/mookie-betts-werejaguar.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2674912,
+   "from": "/workspace/reels-master/mookie-betts-werejaguar.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 9697595,
+    "file": "mookie-betts-werejaguar.mp4"
+   }
+  },
   "myles-garrett": {
    "src": "/videos/myles-garrett.mp4",
    "width": 640,
@@ -1335,6 +1943,22 @@
     "height": 1728,
     "bytes": 52417421,
     "file": "grok-video-66d9ff77-8948-4937-b74b-40c1438a20c6.mp4"
+   }
+  },
+  "myles-garrett-forge-drake": {
+   "src": "/videos/myles-garrett-forge-drake.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2902668,
+   "from": "/workspace/reels-master/myles-garrett-forge-drake.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11685119,
+    "file": "myles-garrett-forge-drake.mp4"
    }
   },
   "nick-sirianni": {
@@ -1385,6 +2009,22 @@
     "file": "nick-sirianni-peace.mp4"
    }
   },
+  "nikola-jokic-clay-golem": {
+   "src": "/videos/nikola-jokic-clay-golem.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3114153,
+   "from": "/workspace/reels-master/nikola-jokic-clay-golem.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13051038,
+    "file": "nikola-jokic-clay-golem.mp4"
+   }
+  },
   "no-fly-zone": {
    "src": "/videos/no-fly-zone.mp4",
    "width": 640,
@@ -1399,6 +2039,38 @@
     "height": 1728,
     "bytes": 26670334,
     "file": "grok-video-99f84c62-70a1-4846-a0bb-1dbce836fc47.mp4"
+   }
+  },
+  "patrick-mahomes-freddy": {
+   "src": "/videos/patrick-mahomes-freddy.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2820284,
+   "from": "/workspace/reels-master/patrick-mahomes-freddy.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10528959,
+    "file": "patrick-mahomes-freddy.mp4"
+   }
+  },
+  "patrick-mahomes-pennywise": {
+   "src": "/videos/patrick-mahomes-pennywise.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2919521,
+   "from": "/workspace/reels-master/patrick-mahomes-pennywise.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10804306,
+    "file": "patrick-mahomes-pennywise.mp4"
    }
   },
   "philadelphia-five": {
@@ -1527,6 +2199,22 @@
     "height": 1920,
     "bytes": 24901855,
     "file": "grok-video-acf57399-b4b8-4fd3-8b71-ec1deffa5d58.mp4"
+   }
+  },
+  "saquon-barkley-wolf-hurdle": {
+   "src": "/videos/saquon-barkley-wolf-hurdle.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2710353,
+   "from": "/workspace/reels-master/saquon-barkley-wolf-hurdle.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 18134076,
+    "file": "saquon-barkley-wolf-hurdle.mp4"
    }
   },
   "sean-mannion": {
@@ -1665,6 +2353,22 @@
     "file": "grok-video-b2b3d71c-972c-42be-af93-11b5d2b04cdb.mp4"
    }
   },
+  "stephen-curry-warlock": {
+   "src": "/videos/stephen-curry-warlock.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2589613,
+   "from": "/workspace/reels-master/stephen-curry-warlock.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13959513,
+    "file": "stephen-curry-warlock.mp4"
+   }
+  },
   "tank-bigsby": {
    "src": "/videos/tank-bigsby.mp4",
    "width": 686,
@@ -1679,6 +2383,38 @@
     "height": 1120,
     "bytes": 14383345,
     "file": "tank-bigsby.mp4"
+   }
+  },
+  "tj-watt-furnace-golem": {
+   "src": "/videos/tj-watt-furnace-golem.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2756521,
+   "from": "/workspace/reels-master/tj-watt-furnace-golem.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12694174,
+    "file": "tj-watt-furnace-golem.mp4"
+   }
+  },
+  "travis-hunter-janus-hawk": {
+   "src": "/videos/travis-hunter-janus-hawk.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2960573,
+   "from": "/workspace/reels-master/travis-hunter-janus-hawk.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10901678,
+    "file": "travis-hunter-janus-hawk.mp4"
    }
   },
   "travis-kelce-crystal": {
@@ -1711,6 +2447,54 @@
     "height": 1120,
     "bytes": 18712731,
     "file": "travis-kelce-snow.mp4"
+   }
+  },
+  "travis-kelce-zombie-banquet-hall": {
+   "src": "/videos/travis-kelce-zombie-banquet-hall.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2628815,
+   "from": "/workspace/reels-master/travis-kelce-zombie-banquet-hall.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 19287394,
+    "file": "travis-kelce-zombie-banquet-hall.mp4"
+   }
+  },
+  "travis-kelce-zombie-wine-cellar": {
+   "src": "/videos/travis-kelce-zombie-wine-cellar.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2861511,
+   "from": "/workspace/reels-master/travis-kelce-zombie-wine-cellar.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 14195324,
+    "file": "travis-kelce-zombie-wine-cellar.mp4"
+   }
+  },
+  "trevor-lawrence-gill-man": {
+   "src": "/videos/trevor-lawrence-gill-man.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2825751,
+   "from": "/workspace/reels-master/trevor-lawrence-gill-man.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13104851,
+    "file": "trevor-lawrence-gill-man.mp4"
    }
   },
   "trevor-lawrence-prizm": {
@@ -1801,6 +2585,22 @@
     "file": "grok-video-d42cb069-bfa1-4019-a9f8-b035634d013b.mp4"
    }
   },
+  "tyrese-maxey-ifrit": {
+   "src": "/videos/tyrese-maxey-ifrit.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2715695,
+   "from": "/workspace/reels-master/tyrese-maxey-ifrit.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 18446802,
+    "file": "tyrese-maxey-ifrit.mp4"
+   }
+  },
   "uar-bernard": {
    "src": "/videos/uar-bernard.mp4",
    "width": 640,
@@ -1849,6 +2649,22 @@
     "file": "vic-fangio-sideline.mp4"
    }
   },
+  "victor-wembanyama-living-statue": {
+   "src": "/videos/victor-wembanyama-living-statue.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2838420,
+   "from": "/workspace/reels-master/victor-wembanyama-living-statue.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11158664,
+    "file": "victor-wembanyama-living-statue.mp4"
+   }
+  },
   "vj-edgecombe-nave": {
    "src": "/videos/vj-edgecombe-nave.mp4",
    "width": 720,
@@ -1871,6 +2687,38 @@
     "height": 1120,
     "bytes": 9990104,
     "file": "wembanyama-8bit.mp4"
+   }
+  },
+  "zack-baun-library-stacks": {
+   "src": "/videos/zack-baun-library-stacks.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2603712,
+   "from": "/workspace/reels-master/zack-baun-library-stacks.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13336222,
+    "file": "zack-baun-library-stacks.mp4"
+   }
+  },
+  "zack-wheeler-storm-elemental": {
+   "src": "/videos/zack-wheeler-storm-elemental.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2918797,
+   "from": "/workspace/reels-master/zack-wheeler-storm-elemental.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 15342441,
+    "file": "zack-wheeler-storm-elemental.mp4"
    }
   }
  }
