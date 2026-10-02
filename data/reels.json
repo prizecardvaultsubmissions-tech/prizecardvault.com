@@ -49,6 +49,22 @@
     "file": "aj-brown.mp4"
    }
   },
+  "aj-brown-cathedral": {
+   "src": "/videos/aj-brown-cathedral.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2861492,
+   "from": "/workspace/reels-master/aj-brown-cathedral.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 15068864,
+    "file": "aj-brown-cathedral.mp4"
+   }
+  },
   "amon-ra-st-brown": {
    "src": "/videos/amon-ra-st-brown.mp4",
    "width": 960,
@@ -159,6 +175,22 @@
     "height": 1120,
     "bytes": 10507538,
     "file": "bobby-wagner.mp4"
+   }
+  },
+  "bobby-wagner-crystal": {
+   "src": "/videos/bobby-wagner-crystal.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2769742,
+   "from": "/workspace/reels-master/bobby-wagner-crystal.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 16745602,
+    "file": "bobby-wagner-crystal.mp4"
    }
   },
   "bobby-wagner-halo": {
