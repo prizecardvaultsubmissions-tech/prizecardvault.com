@@ -433,6 +433,22 @@
     "file": "christian-mccaffrey-fog-city.mp4"
    }
   },
+  "christian-mccaffrey-locker": {
+   "src": "/videos/christian-mccaffrey-locker.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2922949,
+   "from": "/workspace/reels-master/christian-mccaffrey-locker.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13921405,
+    "file": "christian-mccaffrey-locker.mp4"
+   }
+  },
   "cooper-dejean": {
    "src": "/videos/cooper-dejean.mp4",
    "width": 640,
@@ -1097,6 +1113,22 @@
     "file": "grok-video-7cbf0b4e-d15d-4ffe-9ead-743b061c1e37.mp4"
    }
   },
+  "jaxson-dart-crystal": {
+   "src": "/videos/jaxson-dart-crystal.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2824003,
+   "from": "/workspace/reels-master/jaxson-dart-crystal.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11069757,
+    "file": "jaxson-dart-crystal.mp4"
+   }
+  },
   "jaxson-dart-nosferatu": {
    "src": "/videos/jaxson-dart-nosferatu.mp4",
    "width": 686,
@@ -1111,6 +1143,22 @@
     "height": 1120,
     "bytes": 9642856,
     "file": "jaxson-dart-nosferatu.mp4"
+   }
+  },
+  "jaxson-dart-six": {
+   "src": "/videos/jaxson-dart-six.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2834321,
+   "from": "/workspace/reels-master/jaxson-dart-six.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 20081701,
+    "file": "jaxson-dart-six.mp4"
    }
   },
   "jayden-daniels": {
@@ -2743,6 +2791,22 @@
     "height": 1120,
     "bytes": 11861878,
     "file": "vic-fangio.mp4"
+   }
+  },
+  "vic-fangio-hoodie": {
+   "src": "/videos/vic-fangio-hoodie.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3026136,
+   "from": "/workspace/reels-master/vic-fangio-hoodie.mp4",
+   "source": "Grok Imagine",
+   "crf": 23.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 10788957,
+    "file": "vic-fangio-hoodie.mp4"
    }
   },
   "vic-fangio-sideline": {
