@@ -2073,6 +2073,22 @@
     "file": "patrick-mahomes.mp4"
    }
   },
+  "patrick-mahomes-crystal": {
+   "src": "/videos/patrick-mahomes-crystal.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3110288,
+   "from": "/workspace/reels-master/patrick-mahomes-crystal.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 15883759,
+    "file": "patrick-mahomes-crystal.mp4"
+   }
+  },
   "patrick-mahomes-freddy": {
    "src": "/videos/patrick-mahomes-freddy.mp4",
    "width": 686,
@@ -2599,6 +2615,22 @@
     "height": 800,
     "bytes": 5936252,
     "file": "tutu-atwell.mp4"
+   }
+  },
+  "ty-simpson": {
+   "src": "/videos/ty-simpson.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2748316,
+   "from": "/workspace/reels-master/ty-simpson.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 20691786,
+    "file": "ty-simpson.mp4"
    }
   },
   "tyler-shough-saints-rise": {
