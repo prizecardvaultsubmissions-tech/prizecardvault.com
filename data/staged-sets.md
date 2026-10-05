@@ -11,6 +11,7 @@ and that have per-plate Squarespace products at https://shop.prizecardvault.com/
 | Holiday Havoc MLB (10 winners / 30 gens) | /workspace/prize-cards/holiday-havoc-mlb (PNG fronts only, no backs, no vault-ready) | Not staged | none | Excluded |
 | JH Multiversal backs | /workspace/jh-multiversal-backs (PDF/preview only) | Backs for existing JH fronts; no per-slug JPGs | n/a | Excluded (existing JH cards keep their current backs) |
 
-To publish a set later: create its Squarespace products (slug = vault slug), add entries to
-data/cards.json (same fields as existing cards, `set` name, `hasBack`), run the image step for the
+To publish a set later: create its Squarespace products (slug = vault slug), **prepend** entries to
+data/cards.json (newest-first — top of the `cards` array; same fields as existing cards, `set` name, `hasBack`), run the image step for the
 new slugs (tools/process_images.py reads fronts/backs; point SRC at the set's vault-ready folder), then `python3 build.py`.
+The gallery renders array order as-is (no date sort); HoH `stage.py` already prepends.

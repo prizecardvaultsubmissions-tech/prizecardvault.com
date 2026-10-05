@@ -9,7 +9,8 @@ Checkout stays on Squarespace: every Buy button goes to `https://shop.prizecardv
   - `/` sports gallery · `/games` game gallery · `/shop` (+ `?kind=game`) · `/nfc` · `/reprint` · `/c/{slug}` card pages (271)
   - `cards/{slug}.jpg`, `cards/{slug}-back.jpg`, `cards/back.jpg`, `cards/thumbs/{slug}.jpg|webp` — same paths as the old site
   - `videos/{slug}.mp4` — living reels (real Grok Imagine videos). Mapped in `data/reels.json`: 14 old-site reels by `tools/import_reels.py`, new Imagine batches by `tools/add_reels.py`.
-- `data/cards.json` — catalog (271 cards; order, rarity, blurbs, shop URL). `data/image-dims.json` — image sizes. `data/reels.json` — slug → living reel.
+- `data/cards.json` — catalog (order, rarity, blurbs, shop URL). **Array order is display order; newest first** — insert future cards at the **top** of the `cards` array (see staged-sets / HoH `stage.py`, which prepends). There is no date field; “new” = earlier in the array.
+- `data/promos.json` — featured pack-rip / set trailers (newest first). Host files in `docs/promo/`. `data/image-dims.json` — image sizes. `data/reels.json` — slug → living reel.
 - `src/styles.css`, `src/app.js` — copied into `docs/assets/` by the build.
 - `build.py` — generates all HTML. `python3 build.py`
 - `tools/prepare_data.py`, `tools/process_images.py` — one-time import from the box capture (not needed to rebuild HTML).
@@ -36,6 +37,9 @@ Budget: Pages publishes `docs/` (1 GB limit, and git history keeps every committ
 reels ≈ 0.9 GB with the rest of the site — keep the default size window and avoid needless `--force` re-encodes.
 The full-screen player uses `/cards/<slug>.jpg` as the poster and `object-fit: contain`, so landscape reels are
 letterboxed, never cropped. Then commit `docs/ data/ tools/`, `git pull --rebase` (the stats workflow commits daily), push.
+
+## Featured promos
+`data/promos.json` drives a clickable strip above the sports gallery. Each entry points at a file under `docs/promo/` (9:16 MP4 + poster). Tap opens the same full-screen overlay pattern as living reels, but with audio and controls. Add new promos at the **top** of the `promos` array.
 
 ## Why `c/{slug}.html`
 GitHub Pages serves `/c/drake-maye` from `c/drake-maye.html` without a redirect, so NFC chips already

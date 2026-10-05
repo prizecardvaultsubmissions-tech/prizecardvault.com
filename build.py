@@ -2,7 +2,8 @@
 """Static site generator for prizecardvault.com (GitHub Pages).
 
   python3 build.py            -> regenerates HTML/CSS/JS into docs/
-Inputs: data/cards.json, data/image-dims.json, data/reels.json, src/styles.css, src/app.js
+Inputs: data/cards.json (array order = display order, newest first), data/image-dims.json,
+data/reels.json, data/promos.json, src/styles.css, src/app.js
 Card images already live in docs/cards (see tools/process_images.py).
 URLs: /c/{slug} is served from docs/c/{slug}.html (GitHub Pages resolves extensionless URLs),
 so NFC chips already written with https://prizecardvault.com/c/{slug} keep working.
@@ -18,6 +19,9 @@ DIMS = json.load(open(ROOT / 'data/image-dims.json'))
 # living reels: slug -> {'src': '/videos/{slug}.mp4', ...} (tools/import_reels.py)
 REELS = {k: v for k, v in json.load(open(ROOT / 'data/reels.json'))['reels'].items()
          if (DOCS / v['src'].lstrip('/')).is_file()}
+# promos: clickable pack-rip / set trailers (data/promos.json → docs/promo/)
+PROMOS = [p for p in json.load(open(ROOT / 'data/promos.json')).get('promos', [])
+          if (DOCS / p['src'].lstrip('/')).is_file()]
 NFC_P, HOLO_P = data['pricing']['nfc'], data['pricing']['holo']
 cards = [c for c in data['cards'] if c.get('published', True)]
 sports = [c for c in cards if c['kind'] == 'sports']
@@ -98,6 +102,35 @@ def tile(c):
     return (f'<a href="/c/{c["slug"]}" class="tile" data-rarity="{c["rarity"]}">{thumb(c)}<span class="shine"></span>'
             f'<span class="cap"><span class="nm">{e(c["name"])}</span><span class="rar foil {c["rarity"]}">{c["rarity"]} · {c["cost"]}</span></span></a>')
 
+
+def promo_section(kind):
+    """Clickable promo strip (pack-rip / set trailers). Newest first in data/promos.json."""
+    items = [p for p in PROMOS if p.get('kind', 'sports') == kind]
+    if not items:
+        return ''
+    tiles = []
+    for p in items:
+        poster = e(p.get('poster') or '')
+        src = e(p['src'])
+        title = e(p['title'])
+        sub = e(p.get('subtitle') or 'Promo')
+        slug = e(p.get('cardSlug') or '')
+        link = (f'<a class="promo-card" href="/c/{slug}">View plate</a>' if slug else '')
+        tiles.append(
+            f'<article class="promo-tile">'
+            f'<button type="button" class="promo-playbtn" data-promo-src="{src}" data-promo-poster="{poster}" '
+            f'data-promo-title="{title}" data-promo-sub="{sub}" aria-label="Play {title} — {sub}">'
+            f'<span class="promo-thumb"><img src="{poster}" alt="" width="720" height="1280" loading="lazy" decoding="async">'
+            f'<span class="promo-play" aria-hidden="true">{icon("play")}</span></span></button>'
+            f'<div class="promo-meta"><p class="promo-eyebrow">{sub}</p>'
+            f'<p class="promo-title">{title}</p>{link}</div></article>'
+        )
+    return (f'<section class="promo-strip wrap" aria-label="Promotional videos">'
+            f'<div class="promo-head"><p class="eyebrow">Promo</p>'
+            f'<h2 class="promo-h">Featured promos</h2>'
+            f'<p class="promo-lede">Pack-rip trailers — tap to play full screen. Add more at the top of data/promos.json.</p></div>'
+            f'<div class="promo-row">{"".join(tiles)}</div></section>')
+
 def gallery_page(kind):
     lst = sports if kind == 'sports' else games
     ur = sum(1 for c in lst if c['rarity'] == 'UR'); ssr = sum(1 for c in lst if c['rarity'] == 'SSR')
@@ -118,10 +151,12 @@ def gallery_page(kind):
         desc = 'Full-art game prize plates — original oils, legends, and living reels — each with its own NFC link.'
         active = 'games'
     gid = f'grid-{kind}'
+    promos = promo_section(kind)
     body = f'''<body>
 <main>
 {header(active)}
 <section class="hero"><div class="in"><p class="eyebrow">prizecardvault.com</p><h1>{h1}</h1><p class="lede">{lede}</p><div class="stats">{stats}</div><div class="actions">{acts}</div></div></section>
+{promos}
 <section class="wrap"><div class="gbar"><p data-count>{len(lst)} cards</p><div class="filters" data-filters="{gid}"><button type="button" class="on" data-filter="ALL">ALL</button><button type="button" data-filter="UR">UR</button><button type="button" data-filter="SSR">SSR</button></div></div>
 <div class="grid" id="{gid}">{"".join(tile(c) for c in lst)}</div></section>
 </main>

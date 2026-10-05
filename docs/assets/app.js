@@ -251,3 +251,56 @@
   }
   if (location.hash === '#stats') show('stats', false);
 })();
+
+// Featured promo strip: click → fullscreen player (with audio + controls; same overlay pattern as living reels)
+(function () {
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var fsv = null;
+  function fsEl() { return document.fullscreenElement || document.webkitFullscreenElement || null; }
+  function closeFs() {
+    if (!fsv) return;
+    var o = fsv; fsv = null;
+    var v = $('video', o); if (v) { v.pause(); v.removeAttribute('src'); v.load(); }
+    if (fsEl() === o) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); }
+    o.remove(); document.body.classList.remove('fs-open');
+  }
+  function openPromo(btn) {
+    if (fsv) closeFs();
+    var src = btn.getAttribute('data-promo-src');
+    if (!src) return;
+    var poster = btn.getAttribute('data-promo-poster') || '';
+    var title = btn.getAttribute('data-promo-title') || 'Promo';
+    var sub = btn.getAttribute('data-promo-sub') || 'Promo';
+    var o = document.createElement('div');
+    o.className = 'fsv has-reel has-promo';
+    o.setAttribute('role', 'dialog'); o.setAttribute('aria-modal', 'true');
+    o.setAttribute('aria-label', title + ' — ' + sub);
+    var media = document.createElement('video');
+    media.className = 'fsv-media';
+    media.controls = true; media.playsInline = true; media.autoplay = true;
+    ['controls', 'playsinline', 'webkit-playsinline', 'autoplay'].forEach(function (a) { media.setAttribute(a, ''); });
+    media.setAttribute('preload', 'auto');
+    if (poster) media.setAttribute('poster', poster);
+    media.setAttribute('aria-label', title + ' promo');
+    media.src = src;
+    var close = document.createElement('button');
+    close.type = 'button'; close.className = 'icon-btn fsv-close'; close.setAttribute('aria-label', 'Close'); close.textContent = '✕';
+    close.addEventListener('click', function (e) { e.stopPropagation(); closeFs(); });
+    var cap = document.createElement('p'); cap.className = 'fsv-cap';
+    cap.textContent = sub + ' · ' + title;
+    o.appendChild(media); o.appendChild(close); o.appendChild(cap);
+    o.addEventListener('click', function (e) { if (e.target === o) closeFs(); });
+    document.body.appendChild(o); document.body.classList.add('fs-open'); fsv = o;
+    var pr = media.play(); if (pr && pr.catch) pr.catch(function () {});
+    var req = o.requestFullscreen || o.webkitRequestFullscreen;
+    if (req) { try { var r = req.call(o); if (r && r.catch) r.catch(function () {}); } catch (err) {} }
+    close.focus({ preventScroll: true });
+  }
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-promo-src]');
+    if (btn) openPromo(btn);
+  });
+  document.addEventListener('keydown', function (e) { if (fsv && e.key === 'Escape') closeFs(); });
+  document.addEventListener('fullscreenchange', function () { if (fsv && !fsEl()) closeFs(); });
+  document.addEventListener('webkitfullscreenchange', function () { if (fsv && !fsEl()) closeFs(); });
+})();

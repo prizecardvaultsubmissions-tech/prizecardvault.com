@@ -1,0 +1,14 @@
+{
+ "note": "Promotional videos shown above the gallery. Array order is display order — newest first. Add new promos at the TOP of the promos array. Host files under docs/promo/.",
+ "promos": [
+  {
+   "id": "lebron-james-midnight-sovereign-hoh",
+   "title": "LeBron James · Midnight Sovereign",
+   "subtitle": "House of Horrors promo",
+   "src": "/promo/lebron-james-midnight-sovereign-hoh.mp4",
+   "poster": "/promo/lebron-james-midnight-sovereign-hoh-poster.jpg",
+   "cardSlug": "lebron-james-midnight-sovereign",
+   "kind": "sports"
+  }
+ ]
+}
