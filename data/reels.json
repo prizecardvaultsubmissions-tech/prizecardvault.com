@@ -705,6 +705,22 @@
    "bytes": 1840732,
    "from": "/workspace/prizecardvault/ad_assets/erling-haaland-locker.mp4"
   },
+  "flareon-oil": {
+   "src": "/videos/flareon-oil.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3002399,
+   "from": "/workspace/reels-master/flareon-oil.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12167488,
+    "file": "flareon-oil.mp4"
+   }
+  },
   "frankie-luvu": {
    "src": "/videos/frankie-luvu.mp4",
    "width": 686,
@@ -751,6 +767,22 @@
     "height": 1120,
     "bytes": 9959533,
     "file": "gunnar-henderson-crow-baron.mp4"
+   }
+  },
+  "hatshepsut-secretary": {
+   "src": "/videos/hatshepsut-secretary.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3157721,
+   "from": "/workspace/reels-master/hatshepsut-secretary.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 16787823,
+    "file": "hatshepsut-secretary.mp4"
    }
   },
   "howie-roseman": {
@@ -3087,6 +3119,22 @@
     "height": 1120,
     "bytes": 15342441,
     "file": "zack-wheeler-storm-elemental.mp4"
+   }
+  },
+  "zheng-he": {
+   "src": "/videos/zheng-he.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2713890,
+   "from": "/workspace/reels-master/zheng-he.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 17619922,
+    "file": "zheng-he.mp4"
    }
   }
  }
