@@ -937,6 +937,38 @@
    "bytes": 655573,
    "from": "/workspace/prizecardvault/ad_assets/jalen-hurts-film.mp4"
   },
+  "jalen-hurts-fireworks": {
+   "src": "/videos/jalen-hurts-fireworks.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2572393,
+   "from": "/workspace/reels-master/jalen-hurts-fireworks.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 11840967,
+    "file": "jalen-hurts-fireworks.mp4"
+   }
+  },
+  "jalen-hurts-gloves": {
+   "src": "/videos/jalen-hurts-gloves.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2898807,
+   "from": "/workspace/reels-master/jalen-hurts-gloves.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12787583,
+    "file": "jalen-hurts-gloves.mp4"
+   }
+  },
   "jalen-hurts-halo": {
    "src": "/videos/jalen-hurts-halo.mp4",
    "width": 686,
@@ -1039,6 +1071,22 @@
     "height": 1728,
     "bytes": 35666775,
     "file": "grok-video-a363270e-614a-4b90-b980-77c5f458a0a2.mp4"
+   }
+  },
+  "jalen-hurts-snow": {
+   "src": "/videos/jalen-hurts-snow.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2622801,
+   "from": "/workspace/reels-master/jalen-hurts-snow.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13493919,
+    "file": "jalen-hurts-snow.mp4"
    }
   },
   "jalen-hurts-suite": {
