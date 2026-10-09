@@ -353,6 +353,22 @@
     "file": "cam-skattebo.mp4"
    }
   },
+  "cam-skattebo-crystal": {
+   "src": "/videos/cam-skattebo-crystal.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2683674,
+   "from": "/workspace/reels-master/cam-skattebo-crystal.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 14236101,
+    "file": "cam-skattebo-crystal.mp4"
+   }
+  },
   "cam-skattebo-mud": {
    "src": "/videos/cam-skattebo-mud.mp4",
    "width": 686,
@@ -921,6 +937,22 @@
    "bytes": 655573,
    "from": "/workspace/prizecardvault/ad_assets/jalen-hurts-film.mp4"
   },
+  "jalen-hurts-halo": {
+   "src": "/videos/jalen-hurts-halo.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3043015,
+   "from": "/workspace/reels-master/jalen-hurts-halo.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13103847,
+    "file": "jalen-hurts-halo.mp4"
+   }
+  },
   "jalen-hurts-island": {
    "src": "/videos/jalen-hurts-island.mp4",
    "width": 686,
@@ -977,6 +1009,22 @@
    "bytes": 4346746,
    "from": "/workspace/kickstarter/video/cinematic/assets/native/jalen-hurts-phoenix.mp4"
   },
+  "jalen-hurts-prism": {
+   "src": "/videos/jalen-hurts-prism.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2892553,
+   "from": "/workspace/reels-master/jalen-hurts-prism.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12061051,
+    "file": "jalen-hurts-prism.mp4"
+   }
+  },
   "jalen-hurts-select": {
    "src": "/videos/jalen-hurts-select.mp4",
    "width": 640,
@@ -1007,6 +1055,22 @@
     "height": 1120,
     "bytes": 13173509,
     "file": "jalen-hurts-suite.mp4"
+   }
+  },
+  "jalen-hurts-temple": {
+   "src": "/videos/jalen-hurts-temple.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2762080,
+   "from": "/workspace/reels-master/jalen-hurts-temple.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 16287926,
+    "file": "jalen-hurts-temple.mp4"
    }
   },
   "jalen-hurts-underrated": {
