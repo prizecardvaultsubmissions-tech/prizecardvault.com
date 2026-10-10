@@ -609,6 +609,22 @@
     "file": "grok-video-a442b452-d5e8-4e19-a37a-85e8a0c4dfbe.mp4"
    }
   },
+  "doom-chains": {
+   "src": "/videos/doom-chains.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2747967,
+   "from": "/workspace/reels-master/doom-chains.mp4",
+   "source": "Grok Imagine",
+   "crf": 28.5,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 19219611,
+    "file": "grok-video-c6b0a0a3-2822-470a-89cf-fae4ba716d35.mp4"
+   }
+  },
   "drake-maye": {
    "src": "/videos/drake-maye.mp4",
    "width": 720,
@@ -751,6 +767,22 @@
     "height": 1120,
     "bytes": 13923261,
     "file": "galileo-galilei.mp4"
+   }
+  },
+  "gambit-charge": {
+   "src": "/videos/gambit-charge.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2766282,
+   "from": "/workspace/reels-master/gambit-charge.mp4",
+   "source": "Grok Imagine",
+   "crf": 30.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 27792171,
+    "file": "grok-video-3423d717-5e98-460f-a1b3-7c02bee49d1d.mp4"
    }
   },
   "gunnar-henderson-crow-baron": {
@@ -2345,6 +2377,22 @@
     "file": "grok-video-99f84c62-70a1-4846-a0bb-1dbce836fc47.mp4"
    }
   },
+  "nostradamus": {
+   "src": "/videos/nostradamus.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2755249,
+   "from": "/workspace/reels-master/nostradamus.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 14756382,
+    "file": "grok-video-f6a7ac4e-e8f8-4e6b-896f-25dbbe204f20.mp4"
+   }
+  },
   "patrick-mahomes": {
    "src": "/videos/patrick-mahomes.mp4",
    "width": 686,
@@ -2703,6 +2751,22 @@
     "height": 1120,
     "bytes": 13959513,
     "file": "stephen-curry-warlock.mp4"
+   }
+  },
+  "sun-tzu-golden-monkey": {
+   "src": "/videos/sun-tzu-golden-monkey.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2849732,
+   "from": "/workspace/reels-master/sun-tzu-golden-monkey.mp4",
+   "source": "Grok Imagine",
+   "crf": 25.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 13839161,
+    "file": "grok-video-81cb8060-551a-4616-8f0f-f85b6c95bb6b.mp4"
    }
   },
   "tank-bigsby": {
