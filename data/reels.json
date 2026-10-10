@@ -593,6 +593,22 @@
     "file": "devonta-smith-curtain-house.mp4"
    }
   },
+  "doctor-doom-eye": {
+   "src": "/videos/doctor-doom-eye.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2527321,
+   "from": "/workspace/reels-master/doctor-doom-eye.mp4",
+   "source": "Grok Imagine",
+   "crf": 29.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 20078913,
+    "file": "grok-video-d4cf7527-d090-41de-ba3f-ab766f911b7d.mp4"
+   }
+  },
   "dontayvion-wicks": {
    "src": "/videos/dontayvion-wicks.mp4",
    "width": 640,
@@ -1961,6 +1977,22 @@
     "file": "justin-jefferson-candy-vault.mp4"
    }
   },
+  "kang-oil": {
+   "src": "/videos/kang-oil.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2715069,
+   "from": "/workspace/reels-master/kang-oil.mp4",
+   "source": "Grok Imagine",
+   "crf": 27.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 18589754,
+    "file": "grok-video-87aff8fc-77e9-4c2e-a153-d39ac1968334.mp4"
+   }
+  },
   "kevin-durant-longshadow": {
    "src": "/videos/kevin-durant-longshadow.mp4",
    "width": 686,
@@ -3047,6 +3079,38 @@
     "height": 1728,
     "bytes": 42029608,
     "file": "grok-video-08227910-0acd-478f-bc58-e1f5ad9ab7fc.mp4"
+   }
+  },
+  "vader-eyes": {
+   "src": "/videos/vader-eyes.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 3023796,
+   "from": "/workspace/reels-master/vader-eyes.mp4",
+   "source": "Grok Imagine",
+   "crf": 24.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 12019947,
+    "file": "grok-video-d20b20a3-a46a-4ead-87ad-48db25c69bab.mp4"
+   }
+  },
+  "vader-helm": {
+   "src": "/videos/vader-helm.mp4",
+   "width": 686,
+   "height": 960,
+   "duration": 10.04,
+   "bytes": 2976219,
+   "from": "/workspace/reels-master/vader-helm.mp4",
+   "source": "Grok Imagine",
+   "crf": 26.0,
+   "master": {
+    "width": 800,
+    "height": 1120,
+    "bytes": 17563553,
+    "file": "grok-video-dc38e3eb-2808-4cb0-aee0-ddb1a505621b.mp4"
    }
   },
   "vic-fangio": {
